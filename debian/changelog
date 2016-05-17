@@ -1,7 +1,12 @@
 compiz (1:0.9.12.2+16.04.20160415-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ Andrea Azzarone ]
   * Add an option to notify that a key press is actually an "auto
     repeat" one. (LP: #1572241)
+
+  [ Alberts Muktupāvels ]
+  * OpenGL: use the number of Opaque windows around to decide whether
+    paint the bg or not (LP: #1574866)
 
  -- Andrea Azzarone <azzaronea@gmail.com>  Thu, 26 May 2016 01:56:18 +0200
 
