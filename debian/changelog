@@ -1,3 +1,30 @@
+compiz (1:0.9.12.2+16.04.20160415-0ubuntu2) UNRELEASED; urgency=medium
+
+  [ Andrea Azzarone ]
+  * Add an option to notify that a key press is actually an "auto
+    repeat" one. (LP: #1572241)
+
+  [ Alberts Muktupāvels ]
+  * OpenGL: use the number of Opaque windows around to decide whether
+    paint the bg or not (LP: #1574866)
+
+  [ Marco Trevisan (Treviño) ]
+  * Scale: use the selectedWindow as starting point when focusing a
+    window (LP: #1575168)
+  * Scale: allow to iterate through windows using Tab key
+  * Window: call stateChangeNotify when compiz state changed but before
+    changing the WM state (LP: #1521302)
+
+  [ Eleni Maria Stea ]
+  * Expo, Scale: add support for bottom offsets (LP: #1562346, LP:
+    #1573897)
+
+  [ handsome_feng ]
+  * Add a YBottomOffset value when stretch maximized windows。 (LP:
+    #1562348)
+
+ -- Andrea Azzarone <azzaronea@gmail.com>  Thu, 26 May 2016 01:56:18 +0200
+
 compiz (1:0.9.12.2+16.04.20160415-0ubuntu1) xenial; urgency=medium
 
   [ Martin Wimpress ]
