@@ -2,6 +2,8 @@ compiz (1:0.9.12.2+16.04.20160714-0ubuntu2) UNRELEASED; urgency=medium
 
   [ Andrea Azzarone ]
   * Don't activate expo if not needed (1x1 setup) (LP: #1606254)
+  * Don't crash if gsettings key is not found. Default value will be
+    used. (LP: #1044662)
 
   [ Marco Trevisan (Treviño) ]
   * Unity MigrationScript: sync gsettings on exit, and only use dconf on
