@@ -1,8 +1,9 @@
-compiz (1:0.9.12.2+16.04.20160801.3-0ubuntu2) UNRELEASED; urgency=medium
+compiz (1:0.9.12.2+16.04.20160823-0ubuntu1) xenial; urgency=medium
 
+  [ Andrea Azzarone ]
   * [expo] limit scroll to workarea. (LP: #913880)
 
- -- Andrea Azzarone <azzaronea@gmail.com>  Tue, 23 Aug 2016 18:00:36 +0200
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Tue, 23 Aug 2016 16:06:02 +0000
 
 compiz (1:0.9.12.2+16.04.20160801.3-0ubuntu1) xenial; urgency=medium
 
