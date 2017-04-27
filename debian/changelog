@@ -1,7 +1,12 @@
 compiz (1:0.9.12.2+16.04.20160823-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ Eleni Maria Stea ]
   * Added option to disable blend in grid plugin
   * Move: add options for showing only the window shape (filled or not)
+
+  [ Marco Trevisan (Treviño) ]
+  * debian/65compiz_profile-on-session: don't export
+    COMPIZ_CONFIG_PROFILE in unity
 
  -- Eleni Maria Stea <elenimaria.stea@canonical.com>  Tue, 27 Jun 2017 18:49:59 +0200
 
