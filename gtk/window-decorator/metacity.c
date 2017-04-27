@@ -697,6 +697,8 @@ meta_draw_window_decoration (decor_t *d)
     else
         surface = create_surface (fgeom.width, fgeom.height, d->frame->style_window_rgba);
 
+    // FIXME: this should match the current monitor scaling!
+    cairo_surface_set_device_scale (surface, 1, 1);
     cr = cairo_create (surface);
     gdk_cairo_set_source_rgba (cr, &bg_rgba);
     cairo_set_operator (cr, CAIRO_OPERATOR_OVER);

@@ -603,6 +603,8 @@ update_window_decoration_size (WnckWindow *win)
     else
 	buffer_surface = create_surface (d->width, d->height, d->frame->style_window_rgba);
 
+    // FIXME: this should match the current monitor scaling!
+    cairo_surface_set_device_scale (buffer_surface, 1, 1);
     gdk_flush ();
 
     /* Handle failure */
