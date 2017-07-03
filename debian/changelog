@@ -21,6 +21,8 @@ compiz (1:0.9.12.2+16.04.20160823-0ubuntu2) UNRELEASED; urgency=medium
   [ Marco Trevisan (Treviño) ]
   * move: damage all the border area in outline mode and ignore
     transparent colors (LP: #1700859)
+  * grid: ignore alpha in colors when not blending, and fix animations
+    (LP: #1700859)
 
  -- Eleni Maria Stea <elenimaria.stea@canonical.com>  Tue, 27 Jun 2017 18:49:59 +0200
 
