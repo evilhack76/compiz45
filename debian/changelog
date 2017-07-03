@@ -18,6 +18,10 @@ compiz (1:0.9.12.2+16.04.20160823-0ubuntu2) UNRELEASED; urgency=medium
   [ Martin Wimpress ]
   * mate: Avoid artefacts of Windows Thumbnail Previews (LP: #1606369)
 
+  [ Marco Trevisan (Treviño) ]
+  * move: damage all the border area in outline mode and ignore
+    transparent colors (LP: #1700859)
+
  -- Eleni Maria Stea <elenimaria.stea@canonical.com>  Tue, 27 Jun 2017 18:49:59 +0200
 
 compiz (1:0.9.12.2+16.04.20160823-0ubuntu1) xenial; urgency=medium
