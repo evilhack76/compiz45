@@ -5,10 +5,6 @@ compiz (1:0.9.12.3) UNRELEASED; urgency=medium
   * Move: add options for showing only the window shape (filled or not)
     (LP: #1700859)
 
-  [ Marco Trevisan (Treviño) ]
-  * debian/65compiz_profile-on-session: don't export
-    COMPIZ_CONFIG_PROFILE in unity
-
   [ Alberts Muktupāvels ]
   * Ensure that surfaces used by metacity theme have device scale set to
     1 . (LP: #1530277) (LP: #1530277)
