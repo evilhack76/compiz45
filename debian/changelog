@@ -1,4 +1,4 @@
-compiz (1:0.9.12.3) UNRELEASED; urgency=medium
+compiz (1:0.9.12.3+16.04.20171116-0ubuntu1) xenial; urgency=medium
 
   [ Eleni Maria Stea ]
   * Added option to disable blend in grid plugin (LP: #1700859)
@@ -24,7 +24,7 @@ compiz (1:0.9.12.3) UNRELEASED; urgency=medium
   * Screen: add averageColor to get the current desktop average color
   * unity-lowgfx.ini: remove unsupported unity option
 
- -- Marco Trevisan <marco@ubuntu.com>  Tue, 27 Jun 2017 18:49:59 +0200
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Thu, 16 Nov 2017 23:00:54 +0000
 
 compiz (1:0.9.12.2+16.04.20160823-0ubuntu1) xenial; urgency=medium
 
