@@ -22,6 +22,7 @@ compiz (1:0.9.12.3) UNRELEASED; urgency=medium
   * resize: add support for disabling transparency and avoid over-
     damaging in outline mode (LP: #1700859)
   * Screen: add averageColor to get the current desktop average color
+  * unity-lowgfx.ini: remove unsupported unity option
 
  -- Marco Trevisan <marco@ubuntu.com>  Tue, 27 Jun 2017 18:49:59 +0200
 
