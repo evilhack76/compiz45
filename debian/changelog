@@ -1,3 +1,31 @@
+compiz (1:0.9.12.3) UNRELEASED; urgency=medium
+
+  [ Eleni Maria Stea ]
+  * Added option to disable blend in grid plugin (LP: #1700859)
+  * Move: add options for showing only the window shape (filled or not)
+    (LP: #1700859)
+
+  [ Alberts Muktupāvels ]
+  * Ensure that surfaces used by metacity theme have device scale set to
+    1 . (LP: #1530277) (LP: #1530277)
+  * Use AnyPropertyType when getting _MOTIF_WM_HINTS property. (LP:
+    #1702297)
+
+  [ Martin Wimpress ]
+  * mate: Avoid artefacts of Windows Thumbnail Previews (LP: #1606369)
+
+  [ Marco Trevisan (Treviño) ]
+  * move: damage all the border area in outline mode and ignore
+    transparent colors (LP: #1700859)
+  * grid: ignore alpha in colors when not blending, and fix animations
+    (LP: #1700859)
+  * resize: add support for disabling transparency and avoid over-
+    damaging in outline mode (LP: #1700859)
+  * Screen: add averageColor to get the current desktop average color
+  * unity-lowgfx.ini: remove unsupported unity option
+
+ -- Marco Trevisan <marco@ubuntu.com>  Tue, 27 Jun 2017 18:49:59 +0200
+
 compiz (1:0.9.12.2+16.04.20160823-0ubuntu1) xenial; urgency=medium
 
   [ Andrea Azzarone ]

@@ -488,8 +488,10 @@ GridScreen::glPaintRectangle (const GLScreenPaintAttrib &sAttrib,
     GLVertexBuffer  *streamingBuffer = GLVertexBuffer::streamingBuffer ();
     GLfloat         vertexData[12];
     GLushort        colorData[4];
-    GLushort        *color;
+    unsigned short *color, *fillColor, *outlineColor;
+    unsigned short  averageFillColor[4], averageOutlineColor[4];
     GLboolean       isBlendingEnabled;
+    bool            blend = !optionGetDisableBlend ();
 
     const float MaxUShortFloat = std::numeric_limits <unsigned short>::max ();
 
@@ -500,16 +502,51 @@ GridScreen::glPaintRectangle (const GLScreenPaintAttrib &sAttrib,
 
     sTransform.toScreenSpace (output, -DEFAULT_Z_CAMERA);
 
-    glGetBooleanv (GL_BLEND, &isBlendingEnabled);
-    glEnable (GL_BLEND);
+    if (blend)
+    {
+	glGetBooleanv (GL_BLEND, &isBlendingEnabled);
+	glEnable (GL_BLEND);
+    }
+
+    fillColor = optionGetFillColor ();
+    outlineColor = optionGetOutlineColor ();
+
+    if (optionGetUseDesktopAverageColor ())
+    {
+	const unsigned short *averageColor = screen->averageColor ();
+
+	if (averageColor)
+	{
+	    memcpy (averageFillColor, averageColor, 4 * sizeof (unsigned short));
+	    averageFillColor[3] = MaxUShortFloat * 0.6;
+	    fillColor = averageFillColor;
+
+	    // Generate a lighter color based on border to create more contrast
+	    unsigned int averageColorLevel = (averageColor[0] + averageColor[1] + averageColor[2]) / 3;
+	    unsigned short *oc = averageOutlineColor;
+
+	    float colorMultiplier;
+	    if (averageColorLevel > MaxUShortFloat * 0.3)
+		colorMultiplier = 0.7; // make it darker
+	    else
+		colorMultiplier = 2.0; // make it lighter
+
+	    oc[3] = averageColor[3];
+	    oc[0] = MIN(MaxUShortFloat, ((float) averageColor[0]) * colorMultiplier) * oc[3] / MaxUShortFloat;
+	    oc[1] = MIN(MaxUShortFloat, ((float) averageColor[1]) * colorMultiplier) * oc[3] / MaxUShortFloat;
+	    oc[2] = MIN(MaxUShortFloat, ((float) averageColor[2]) * colorMultiplier) * oc[3] / MaxUShortFloat;
+
+	    outlineColor = averageOutlineColor;
+	}
+    }
 
     for (iter = animations.begin (); iter != animations.end () && animating; ++iter)
     {
 	Animation& anim = *iter;
 
 	float curve = powf (CURVE_ANIMATION, -anim.progress);
-	float alpha = (optionGetFillColorAlpha () / MaxUShortFloat) * anim.opacity;
-	color = optionGetFillColor ();
+	float alpha = blend ? (fillColor[3] / MaxUShortFloat) * anim.opacity : 0.85;
+	color = fillColor;
 
 	colorData[0] = alpha * color[0];
 	colorData[1] = alpha * color[1];
@@ -546,8 +583,8 @@ GridScreen::glPaintRectangle (const GLScreenPaintAttrib &sAttrib,
 				      anim.currentRect.height () - 2);
 
 	/* draw outline */
-	alpha = (optionGetOutlineColorAlpha () / MaxUShortFloat) * anim.opacity;
-	color = optionGetOutlineColor ();
+	alpha = blend ? (outlineColor[3] / MaxUShortFloat) * anim.opacity : 1;
+	color = outlineColor;
 
 	colorData[0] = alpha * color[0];
 	colorData[1] = alpha * color[1];
@@ -579,8 +616,8 @@ GridScreen::glPaintRectangle (const GLScreenPaintAttrib &sAttrib,
     if (!animating)
     {
 	/* draw filled rectangle */
-	float alpha = optionGetFillColorAlpha () / MaxUShortFloat;
-	color = optionGetFillColor ();
+	float alpha = blend ? fillColor[3] / MaxUShortFloat : 0.85;
+	color = fillColor;
 
 	colorData[0] = alpha * color[0];
 	colorData[1] = alpha * color[1];
@@ -614,8 +651,8 @@ GridScreen::glPaintRectangle (const GLScreenPaintAttrib &sAttrib,
 			  rect.height () - 2);
 
 	/* draw outline */
-	alpha = optionGetOutlineColorAlpha () / MaxUShortFloat;
-	color = optionGetOutlineColor ();
+	alpha = outlineColor[3] / MaxUShortFloat;
+	color = outlineColor;
 
 	colorData[0] = alpha * color[0];
 	colorData[1] = alpha * color[1];
@@ -641,8 +678,11 @@ GridScreen::glPaintRectangle (const GLScreenPaintAttrib &sAttrib,
 	streamingBuffer->render (sTransform);
     }
 
-    if (!isBlendingEnabled)
-	glDisable (GL_BLEND);
+    if (blend)
+    {
+	if (!isBlendingEnabled)
+	    glDisable (GL_BLEND);
+    }
 }
 
 bool
@@ -858,7 +898,7 @@ GridScreen::handleEvent (XEvent *event)
 		    animations.at (current).fromRect = w->serverBorderRect ();
 		    animations.at (current).currentRect	= w->serverBorderRect ();
 		    animations.at (current).duration = optionGetAnimationDuration ();
-		    animations.at (current).timer = animations.at (current).duration;
+		    animations.at (current).progress = 0.0f;
 		    animations.at (current).targetRect = desiredSlot;
 		    animations.at (current).window = w->id();
 
@@ -1172,18 +1212,24 @@ GridScreen::preparePaint (int msSinceLastPaint)
     for (iter = animations.begin (); iter != animations.end (); ++iter)
     {
 	Animation& anim = *iter;
-	anim.timer -= msSinceLastPaint;
+	GLfloat msSinceLastPaintFloat = static_cast<GLfloat>(msSinceLastPaint);
+	GLfloat animDurationFloat = static_cast<GLfloat>(anim.duration);
+	GLfloat progress_delta = 1.0f;
 
-	if (anim.timer < 0)
-	    anim.timer = 0;
+	if (animDurationFloat > 0.0f)
+	    progress_delta = msSinceLastPaintFloat / animDurationFloat;
 
 	if (anim.fadingOut)
-	    anim.opacity -= msSinceLastPaint * 0.002;
+	{
+	    anim.opacity -= progress_delta;
+	}
 	else
+	{
 	    if (anim.opacity < 1.0f)
 		anim.opacity = anim.progress * anim.progress;
 	    else
 		anim.opacity = 1.0f;
+	}
 
 	if (anim.opacity < 0)
 	{
@@ -1192,10 +1238,10 @@ GridScreen::preparePaint (int msSinceLastPaint)
 	    anim.complete = true;
 	}
 
-	anim.progress =	(anim.duration - anim.timer) / anim.duration;
+	anim.progress = std::min<GLfloat>(anim.progress + progress_delta, 1.0);
     }
 
-    if (optionGetDrawStretchedWindow ())
+    if (optionGetDrawStretchedWindow () && !optionGetDisableBlend ())
     {
 	CompWindow *cw = screen->findWindow (CompOption::getIntOptionNamed (o, "window"));
 
@@ -1265,7 +1311,6 @@ Animation::Animation ()
     targetRect = CompRect (0, 0, 0, 0);
     currentRect = CompRect (0, 0, 0, 0);
     opacity = 0.0f;
-    timer = 0.0f;
     duration = 0;
     complete = false;
     fadingOut = false;
@@ -1373,7 +1418,7 @@ GridWindow::glPaint (const GLWindowPaintAttrib& attrib, const GLMatrix& matrix,
     {
 	Animation& anim = *iter;
 
-	if (anim.timer > 0.0f && anim.window == window->id())
+	if (anim.progress < 1.0f && anim.window == window->id())
 	{
 	    GLWindowPaintAttrib wAttrib(attrib);
 	    GLMatrix wTransform (matrix);

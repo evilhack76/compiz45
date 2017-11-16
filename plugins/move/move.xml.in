@@ -70,6 +70,64 @@
 		<_long>Do not update the server-side position of windows until finished moving.</_long>
 		<default>false</default>
 	    </option>
+
+	    <group>
+	    <_short>Appearance</_short>
+		<option name="mode" type="int">
+		    <_short>Default Moving Window Mode</_short>
+		    <_long>Default mode used for window moving.</_long>
+		    <default>0</default>
+		    <min>0</min>
+		    <max>2</max>
+		    <desc>
+			<value>0</value>
+			<_name>Normal</_name>
+		    </desc>
+		    <desc>
+			<value>1</value>
+			<_name>Outline</_name>
+		    </desc>
+		    <desc>
+			<value>2</value>
+			<_name>Rectangle</_name>
+		    </desc>
+		</option>
+		    <option name="increase_border_contrast" type="bool">
+		    <_short>Use a double-border in 'Rectangle' and 'Outline' modes</_short>
+		    <_long>Increase the contrast of the border using a lighter color.</_long>
+		    <default>true</default>
+		</option>
+		<option name="use_desktop_average_color" type="bool">
+		    <_short>Use Desktop average colors</_short>
+		    <_long>Try to use the desktop average color if defined by your DE (overrides custom colors).</_long>
+		    <default>true</default>
+		</option>
+		<option name="border_color" type="color">
+		    <_short>Border Color</_short>
+		    <_long>Border color used for outline and rectangle moving modes</_long>
+		    <default>
+			<red>0xfbfb</red>
+			<green>0x8b8b</green>
+			<blue>0x0</blue>
+			<alpha>0x9f9f</alpha>
+		    </default>
+		</option>
+		<option name="fill_color" type="color">
+		    <_short>Fill Color</_short>
+		    <_long>Fill color used for rectangle moving mode</_long>
+		    <default>
+			<red>0xfbfb</red>
+			<green>0x8b8b</green>
+			<blue>0x0</blue>
+			<alpha>0x1919</alpha>
+		    </default>
+		</option>
+		<option name="blend" type="bool">
+		    <_short>Enable Transparency</_short>
+		    <_long>Enable or disable blending.</_long>
+		    <default>true</default>
+		</option>
+	    </group>
 	</options>
     </plugin>
 </compiz>
