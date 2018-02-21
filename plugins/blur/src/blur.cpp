@@ -1234,7 +1234,7 @@ BlurWindow::projectRegion (CompOutput     *output,
     GLWindow::Geometry    *gm;
 
     gWindow->geometry ().reset ();
-    gWindow->glAddGeometry (ml, bScreen->tmpRegion2, infiniteRegion);
+    gWindow->glAddGeometry (ml, bScreen->tmpRegion2, CompRegion::infinite ());
 
     if (!gWindow->geometry ().vCount)
 	return;
@@ -1609,7 +1609,7 @@ BlurWindow::glDraw (const GLMatrix     &transform,
 	    bScreen->mvp *= transform;
 
 	    if (mask & PAINT_WINDOW_TRANSFORMED_MASK)
-		reg = infiniteRegion;
+		reg = CompRegion::infinite ();
 	    else
 		reg = region;
 
