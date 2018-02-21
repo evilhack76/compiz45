@@ -1324,7 +1324,7 @@ GLWindow::glDraw (const GLMatrix     &transform,
 			      attrib, region, mask)
 
     const CompRegion &reg = (mask & PAINT_WINDOW_TRANSFORMED_MASK) ?
-                            infiniteRegion : region;
+                            CompRegion::infinite () : region;
 
     if (reg.isEmpty ())
 	return true;

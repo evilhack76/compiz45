@@ -285,7 +285,7 @@ ParticleAnim::updateBB (CompOutput &output)
 	}
     }
 
-    if (mUseDrawRegion && mDrawRegion != emptyRegion)
+    if (mUseDrawRegion && mDrawRegion != CompRegion::empty ())
 	// expand BB with bounding box of draw region
 	mAWindow->expandBBWithBox (mDrawRegion.handle ()->extents);
     else // drawing full window
