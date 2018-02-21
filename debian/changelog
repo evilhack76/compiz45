@@ -1,9 +1,9 @@
-compiz (1:0.9.12.3+16.04.20171116-0ubuntu2) UNRELEASED; urgency=medium
+compiz (1:0.9.12.3+16.04.20180221-0ubuntu1) xenial; urgency=medium
 
   * Region: define static const functions returning infinite and empty
     regions (LP: #1750619)
 
- -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Wed, 21 Feb 2018 18:20:59 +0100
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Wed, 21 Feb 2018 17:42:11 +0000
 
 compiz (1:0.9.12.3+16.04.20171116-0ubuntu1) xenial; urgency=medium
 
