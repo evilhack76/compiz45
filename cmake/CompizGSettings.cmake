@@ -23,7 +23,7 @@ if (PKG_CONFIG_TOOL AND NOT GSETTINGS_GLOBAL_INSTALL_DIR_SET)
 
     # find out where schemas need to go if we are installing them systemwide
     execute_process (COMMAND ${PKG_CONFIG_TOOL} glib-2.0 --variable prefix  OUTPUT_VARIABLE GSETTINGS_GLIB_PREFIX OUTPUT_STRIP_TRAILING_WHITESPACE)
-    set (GSETTINGS_GLOBAL_INSTALL_DIR "${GSETTINGS_GLIB_PREFIX}/share/glib-2.0/schemas/")
+    set (GSETTINGS_GLOBAL_INSTALL_DIR "${GSETTINGS_GLIB_PREFIX}/share/glib-2.0/schemas")
 
     set_property (GLOBAL
 		  PROPERTY GSETTINGS_GLOBAL_INSTALL_DIR
@@ -64,7 +64,7 @@ function (compiz_install_gsettings_schema _src _dst)
 
     # find out where schemas need to go if we are installing them systemwide
     execute_process (COMMAND ${PKG_CONFIG_TOOL} glib-2.0 --variable prefix  OUTPUT_VARIABLE GSETTINGS_GLIB_PREFIX OUTPUT_STRIP_TRAILING_WHITESPACE)
-    SET (GSETTINGS_GLOBAL_INSTALL_DIR "${GSETTINGS_GLIB_PREFIX}/share/glib-2.0/schemas/")
+    SET (GSETTINGS_GLOBAL_INSTALL_DIR "${GSETTINGS_GLIB_PREFIX}/share/glib-2.0/schemas")
 
     if (PKG_CONFIG_TOOL AND
 	GLIB_COMPILE_SCHEMAS AND NOT
