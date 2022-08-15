@@ -433,7 +433,7 @@ WallpaperWindow::drawBackgrounds (const GLMatrix            &transform,
     WALLPAPER_SCREEN (screen);
 
     CompRect              tmpRect;
-    GLTexture::Matrix     matrix;
+    GLTexture::Matrix     matrix = GLTexture::Matrix();
     GLTexture::MatrixList tmpMatrixList;
     WallpaperBackground   *back     = ws->getBackgroundForViewport (bg);
     GLWindowPaintAttrib   tmpAttrib = attrib;
