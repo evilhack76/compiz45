@@ -2277,7 +2277,7 @@ static const unsigned short _NET_WM_STATE_TOGGLE = 2;
 				}
 			    }
 
-			    active->changeState (active->focused () || (w->type () & APPEARS_FOCUSED_MASK) ?
+			    active->changeState (active->focused () || (active->type () & APPEARS_FOCUSED_MASK) ?
 						 active->state () | CompWindowStateFocusedMask :
 						 active->state () & ~CompWindowStateFocusedMask);
 
