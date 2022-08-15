@@ -50,7 +50,7 @@ namespace {
 	     it != vl.get <CompOption::Value::Vector> ().end ();
 	     it++)
 	{
-	    T inst;
+	    T inst = T();
 	    CompOption::Value value (inst);
 
 	    const CompOption::Value &v (*it);
