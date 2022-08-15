@@ -1,9 +1,3 @@
-set (PY_EXECUTABLE "" CACHE FORCE "Python executable")
-set (WDIR "" CACHE FORCE "Working Directory")
-set (PREFIX "" CACHE FORCE "Prefix")
-set (SETUP "" CACHE FORCE "Path to setup.py")
-set (VERSION "" CACHE FORCE "Version")
-
 set (EXTRAARGS "")
 set (BUILD_DEB $ENV{COMPIZ_DEB_BUILD})
 
