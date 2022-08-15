@@ -32,6 +32,8 @@
 
 #include "widget.h"
 
+using namespace boost::placeholders;
+
 class WidgetExp :
     public CompMatch::Expression
 {

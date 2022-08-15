@@ -22,7 +22,7 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  * DEALINGS IN THE SOFTWARE.
  */
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
@@ -32,6 +32,7 @@
 
 #include "backbuffertracking.h"
 
+using namespace boost::placeholders;
 using ::testing::NiceMock;
 using ::testing::_;
 using ::testing::AtLeast;

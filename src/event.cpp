@@ -26,7 +26,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/foreach.hpp>
 #define foreach BOOST_FOREACH
 
@@ -42,6 +42,8 @@
 #include "privatewindow.h"
 #include "privatestackdebugger.h"
 #include "eventmanagement.h"
+
+using namespace boost::placeholders;
 
 namespace cps = compiz::private_screen;
 namespace ce = compiz::events;

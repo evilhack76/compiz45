@@ -4,7 +4,7 @@
 #include <gmock/gmock.h>
 
 #include <boost/shared_ptr.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <ccs.h>
 
@@ -14,6 +14,7 @@
 #include <gtest_shared_characterwrapper.h>
 #include <gtest_shared_autodestroy.h>
 
+using namespace boost::placeholders;
 using ::testing::_;
 using ::testing::Return;
 using ::testing::Eq;

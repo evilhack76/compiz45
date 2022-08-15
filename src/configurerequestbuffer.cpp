@@ -26,13 +26,15 @@
 #include <cassert>
 #include <boost/foreach.hpp>
 #include <boost/weak_ptr.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include "asyncserverwindow.h"
 #include "configurerequestbuffer-impl.h"
 
 #ifndef foreach
 #define foreach BOOST_FOREACH
 #endif
+
+using namespace boost::placeholders;
 
 namespace crb = compiz::window::configure_buffers;
 namespace cw = compiz::window;

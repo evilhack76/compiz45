@@ -25,6 +25,7 @@
 
 #include "bench.h"
 
+using namespace boost::placeholders;
 using namespace compiz::core;
 
 COMPIZ_PLUGIN_20090315 (bench, BenchPluginVTable)

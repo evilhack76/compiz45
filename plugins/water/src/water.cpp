@@ -28,6 +28,7 @@
 
 #include <math.h>
 
+using namespace boost::placeholders;
 
 COMPIZ_PLUGIN_20090315 (water, WaterPluginVTable)
 

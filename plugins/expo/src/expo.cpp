@@ -35,6 +35,8 @@
 #endif
 #include <X11/cursorfont.h>
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (expo, ExpoPluginVTable);
 
 #define sigmoid(x) (1.0f / (1.0f + exp (-11.0f * ((x) - 0.5f))))

@@ -41,6 +41,8 @@
 #include "gl-screen-impl.h"
 #include "composite-screen-impl.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (resize, ResizePluginVTable)
 
 void ResizeScreen::handleEvent (XEvent *event)

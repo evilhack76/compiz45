@@ -35,6 +35,8 @@
 
 #include "shift.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (shift, ShiftPluginVTable);
 
 const double PI = 3.14159265359f;

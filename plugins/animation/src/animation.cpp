@@ -91,6 +91,7 @@
 #include <assert.h>
 #include "private.h"
 
+using namespace boost::placeholders;
 using namespace compiz::core;
 
 class AnimPluginVTable :

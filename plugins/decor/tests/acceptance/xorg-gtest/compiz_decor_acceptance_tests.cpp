@@ -29,7 +29,7 @@
 #include <boost/shared_array.hpp>
 #include <boost/shared_ptr.hpp>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <X11/Xlib.h>
 #include <X11/Xatom.h>
@@ -49,6 +49,7 @@
 namespace xt = xorg::testing;
 namespace ct = compiz::testing;
 
+using namespace boost::placeholders;
 using ::testing::AllOf;
 using ::testing::AtLeast;
 using ::testing::Eq;

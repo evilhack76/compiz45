@@ -74,6 +74,8 @@
 
 #include "ezoom.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (ezoom, ZoomPluginVTable)
 
 

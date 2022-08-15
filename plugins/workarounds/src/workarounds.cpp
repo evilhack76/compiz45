@@ -26,6 +26,8 @@
 
 #include "workarounds.h"
 
+using namespace boost::placeholders;
+
 bool haveOpenGL;
 
 COMPIZ_PLUGIN_20090315 (workarounds, WorkaroundsPluginVTable);

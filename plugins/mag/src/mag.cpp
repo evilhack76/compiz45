@@ -22,6 +22,8 @@
 
 #include "mag.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (mag, MagPluginVTable);
 
 void

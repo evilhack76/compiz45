@@ -24,7 +24,7 @@
 #include <gmock/gmock.h>
 
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <boost/shared_ptr.hpp>
 #include <boost/make_shared.hpp>
@@ -45,6 +45,7 @@ namespace ct = compiz::testing;
 namespace cd = compiz::decor;
 namespace cdp = compiz::decor::protocol;
 
+using namespace boost::placeholders;
 using ::testing::AtLeast;
 using ::testing::ReturnNull;
 using ::testing::Return;

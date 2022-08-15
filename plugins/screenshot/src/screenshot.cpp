@@ -37,6 +37,8 @@
   #define scandir(a,b,c,d) scandir((a), (b), (c), (int(*)(const void*,const void*))(d));
 #endif
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (screenshot, ShotPluginVTable)
 
 bool

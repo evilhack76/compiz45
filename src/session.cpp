@@ -41,7 +41,7 @@
 #include <X11/SM/SMlib.h>
 #include <X11/ICE/ICElib.h>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #define SM_DEBUG(x)
 

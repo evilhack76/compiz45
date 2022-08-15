@@ -27,6 +27,8 @@
 
 #include "switcher.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (switcher, SwitchPluginVTable)
 
 const unsigned short WIDTH  = 212;

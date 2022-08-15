@@ -40,6 +40,8 @@
 #include <X11/Xatom.h>
 #include <X11/extensions/shape.h>
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (decor, DecorPluginVTable)
 
 namespace cwe = compiz::window::extents;

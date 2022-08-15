@@ -33,7 +33,7 @@
 #include <core/timer.h>
 #include <privatetimeouthandler.h>
 #include <privatetimeoutsource.h>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/shared_ptr.hpp>
 #include <deque>
 

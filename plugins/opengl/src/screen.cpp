@@ -32,7 +32,7 @@
 #endif
 #include <errno.h>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/make_shared.hpp>
 
 #include "privates.h"
@@ -40,6 +40,8 @@
 
 #include <dlfcn.h>
 #include <math.h>
+
+using namespace boost::placeholders;
 
 template class WrapableInterface<GLScreen, GLScreenInterface>;
 

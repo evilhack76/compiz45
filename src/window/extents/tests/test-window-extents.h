@@ -29,7 +29,7 @@
 #include <gtest/gtest.h>
 #include <core/windowextents.h>
 #include <iostream>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 class CompWindowExtentsTest : public ::testing::Test
 {

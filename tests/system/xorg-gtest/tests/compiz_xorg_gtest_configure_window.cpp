@@ -31,7 +31,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <xorg/gtest/xorg-gtest.h>
 #include <compiz-xorg-gtest.h>
 #include <compiz_xorg_gtest_communicator.h>
@@ -40,6 +40,8 @@
 
 #include <X11/Xlib.h>
 #include <X11/Xatom.h>
+
+using namespace boost::placeholders;
 
 using ::testing::MatchResultListener;
 using ::testing::MakeMatcher;

@@ -22,6 +22,8 @@
 
 #include "neg.h"
 
+using namespace boost::placeholders;
+
 static std::string fragment_function = "                 \n\
 void neg_fragment () {                                   \n\
     vec3 color = vec3(1.0, 1.0, 1.0) - gl_FragColor.rgb; \n\

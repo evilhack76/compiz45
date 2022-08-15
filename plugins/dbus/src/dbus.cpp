@@ -29,6 +29,8 @@
 
 #include "dbus.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (dbus, DbusPluginVTable);
 
 CompOption::Vector emptyList;

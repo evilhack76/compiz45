@@ -26,6 +26,8 @@
 
 #include "opacify.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (opacify, OpacifyPluginVTable);
 
 const unsigned short MAX_WINDOWS = 64;

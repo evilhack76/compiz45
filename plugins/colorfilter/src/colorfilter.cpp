@@ -25,6 +25,8 @@
 #include <algorithm>
 #include <boost/algorithm/string.hpp>
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (colorfilter, ColorfilterPluginVTable);
 
 /* Actions handling functions ----------------------------------------------- */

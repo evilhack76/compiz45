@@ -29,6 +29,8 @@
 
 #include "maximumize.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (maximumize, MaximumizePluginVTable);
 
 /* Convenience constants to make the code more readable (hopefully) */

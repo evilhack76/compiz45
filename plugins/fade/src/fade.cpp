@@ -26,6 +26,8 @@
 #include "fade.h"
 #include <core/atoms.h>
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (fade, FadePluginVTable);
 
 bool

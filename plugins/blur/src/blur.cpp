@@ -32,6 +32,8 @@
  */
 #define INDEPENDENT_TEX_SUPPORTED 0
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (blur, BlurPluginVTable)
 
 /* pascal triangle based kernel generator */

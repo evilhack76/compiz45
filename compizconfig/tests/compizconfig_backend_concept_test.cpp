@@ -29,13 +29,14 @@
 #include <compizconfig_ccs_setting_stub.h>
 
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/shared_ptr.hpp>
 #include <boost/make_shared.hpp>
 
 #include <compizconfig_backend_concept_test_internal.h>
 #include <compizconfig_backend_concept_test_environment_interface.h>
 
+using namespace boost::placeholders;
 using ::testing::NiceMock;
 using ::testing::Return;
 using ::testing::ReturnNull;

@@ -28,7 +28,7 @@
 #define _COMPIZ_DECOR_PIXMAP_REQUESTS_MOCK_H
 
 #include <gmock/gmock.h>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <X11/Xlib.h>
 #include "pixmap-requests.h"

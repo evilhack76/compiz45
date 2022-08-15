@@ -31,6 +31,8 @@
 #include "scaleaddon.h"
 #include <iostream>
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (scaleaddon, ScaleAddonPluginVTable);
 
 bool textAvailable;

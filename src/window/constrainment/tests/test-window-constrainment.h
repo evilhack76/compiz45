@@ -30,7 +30,7 @@
 #include <core/windowconstrainment.h>
 #include <core/windowgeometry.h>
 #include <iostream>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 class CompWindowConstrainmentTest : public ::testing::Test
 {

@@ -41,7 +41,7 @@
 #include <boost/shared_ptr.hpp>
 #include <boost/make_shared.hpp>
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/noncopyable.hpp>
 
 #include <gtest/gtest.h>
@@ -66,6 +66,8 @@
 #include "compizconfig_ccs_variant_types.h"
 #include "compizconfig_backend_concept_test_internal.h"
 #include "compizconfig_backend_concept_test_environment_interface.h"
+
+using namespace boost::placeholders;
 
 namespace cci = compiz::config::impl;
 namespace cc  = compiz::config;

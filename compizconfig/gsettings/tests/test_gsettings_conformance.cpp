@@ -42,6 +42,7 @@
 #include "compizconfig_ccs_gsettings_settings_env_test.h"
 #include "compizconfig_ccs_integration_mock.h"
 
+using namespace boost::placeholders;
 using ::testing::AtLeast;
 using ::testing::Pointee;
 using ::testing::ReturnNull;

@@ -2,10 +2,11 @@
 #include <gmock/gmock.h>
 
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <opengl/doublebuffer.h>
 
+using namespace boost::placeholders;
 using namespace compiz::opengl;
 using testing::_;
 using testing::StrictMock;

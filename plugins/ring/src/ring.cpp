@@ -29,6 +29,8 @@
 
 #include "ring.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (ring, RingPluginVTable);
 
 const double PI = 3.14159265359f;

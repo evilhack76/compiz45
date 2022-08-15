@@ -27,6 +27,8 @@
 
 #include "private.h"
 
+using namespace boost::placeholders;
+
 // =================  Option Related Functions  =================
 
 AnimEvent win2AnimEventMap[WindowEventNum] =

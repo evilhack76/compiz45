@@ -36,7 +36,7 @@
 #include <assert.h>
 #include <math.h>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/make_shared.hpp>
 #include <boost/pointer_cast.hpp>
 
@@ -50,6 +50,8 @@
 #include "configurerequestbuffer-impl.h"
 
 #include <boost/scoped_array.hpp>
+
+using namespace boost::placeholders;
 
 namespace crb = compiz::window::configure_buffers;
 namespace cw  = compiz::window;

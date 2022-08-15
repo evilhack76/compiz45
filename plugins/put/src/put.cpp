@@ -21,6 +21,8 @@
 
 #include <cmath>
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (put, PutPluginVTable);
 
 #define PUT_ONLY_EMPTY(type) (type >= PutEmptyBottomLeft && \

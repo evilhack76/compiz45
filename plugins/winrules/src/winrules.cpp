@@ -21,6 +21,8 @@
 
 #include "winrules.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (winrules, WinrulesPluginVTable);
 
 void

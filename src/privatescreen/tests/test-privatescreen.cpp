@@ -11,6 +11,7 @@
 
 #include <stdlib.h>
 
+using namespace boost::placeholders;
 using ::testing::Return;
 using ::testing::ReturnRef;
 using ::testing::_;

@@ -29,6 +29,8 @@
 
 #include "wizard.h"
 
+using namespace boost::placeholders;
+
 /* 3 vertices per triangle, 2 triangles per particle */
 const unsigned short CACHESIZE_FACTOR = 3 * 2;
 
