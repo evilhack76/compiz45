@@ -1,6 +1,6 @@
 if (ENV{USER})
     set (USERNAME $ENV{USER})
-else (ENV${USER})
+else (ENV{USER})
     set (USERNAME "user")
 endif (ENV{USER})
 
