@@ -16,7 +16,7 @@ pkg_config_environ["PKG_CONFIG_PATH"] = os.getcwd () + "/../libcompizconfig:" + 
 
 pkgconfig_libs = subprocess.Popen (["pkg-config", "--libs", "libcompizconfig_internal"], stdout=subprocess.PIPE, env=pkg_config_environ, stderr=open(os.devnull, 'w')).communicate ()[0]
 
-if len (pkgconfig_libs) is 0:
+if len (pkgconfig_libs) == 0:
   print ("CompizConfig Python [ERROR]: No libcompizconfig_internal.pc found in the pkg-config search path")
   print ("Ensure that libcompizonfig is installed or libcompizconfig.pc is in your $PKG_CONFIG_PATH")
   exit (1);
