@@ -8,6 +8,10 @@ if (POLICY CMP0077)
     cmake_policy (SET CMP0077 NEW)
 endif ()
 
+if (POLICY CMP0121)
+    cmake_policy (SET CMP0121 NEW)
+endif ()
+
 find_package (PkgConfig 0.29.1 REQUIRED)
 
 if ("${CMAKE_CURRENT_SOURCE_DIR}" STREQUAL "${CMAKE_CURRENT_BINARY_DIR}")
