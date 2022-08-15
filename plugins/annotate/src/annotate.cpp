@@ -25,6 +25,8 @@
 
 #include "annotate.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (annotate, AnnoPluginVTable)
 
 #define DEG2RAD (M_PI / 180.0f)

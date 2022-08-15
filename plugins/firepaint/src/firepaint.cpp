@@ -21,6 +21,8 @@
 
 #include "firepaint.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (firepaint, FirePluginVTable);
 
 /* 3 vertices per triangle, 2 triangles per particle */

@@ -30,7 +30,7 @@
 #include <core/windowgeometry.h>
 #include <core/rect.h>
 #include <iostream>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 class CompWindowGeometryTest : public ::testing::Test
 {

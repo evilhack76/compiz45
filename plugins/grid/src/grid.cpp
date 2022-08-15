@@ -22,12 +22,13 @@
  * Press the tiling keys several times to cycle through some tiling options.
  */
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <cmath>
 #include <cassert>
 #include "grid.h"
 #include "grabhandler.h"
 
+using namespace boost::placeholders;
 using namespace GridWindowType;
 namespace cgw = compiz::grid::window;
 

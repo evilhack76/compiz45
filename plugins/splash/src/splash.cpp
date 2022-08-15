@@ -21,6 +21,8 @@
 
 #include "splash.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (splash, SplashPluginVTable);
 
 const std::string SPLASH_BACKGROUND_DEFAULT("");

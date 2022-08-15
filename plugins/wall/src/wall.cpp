@@ -37,6 +37,8 @@
 
 #include "wall.h"
 
+using namespace boost::placeholders;
+
 static const double PI = 3.14159265359f;
 static const unsigned short VIEWPORT_SWITCHER_SIZE = 100;
 static const unsigned short ARROW_SIZE = 33;

@@ -24,6 +24,8 @@
 
 #include "mblur.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (mblur, MblurPluginVTable);
 
 static void

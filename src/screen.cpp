@@ -42,7 +42,7 @@
 #include <libgen.h>
 #include <algorithm>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/foreach.hpp>
 #include <boost/algorithm/string.hpp>
 #define foreach BOOST_FOREACH
@@ -64,6 +64,8 @@
 #include "privatewindow.h"
 #include "privateaction.h"
 #include "privatestackdebugger.h"
+
+using namespace boost::placeholders;
 
 template class WrapableInterface<CompScreen, ScreenInterface>;
 

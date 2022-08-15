@@ -41,6 +41,8 @@
 
 #include "glx-tfp-bind.h"
 
+using namespace boost::placeholders;
+
 namespace cgl = compiz::opengl;
 
 #ifdef USE_GLES

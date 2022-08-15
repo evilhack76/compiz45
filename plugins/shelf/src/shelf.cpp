@@ -34,6 +34,8 @@
 
 #include "shelf.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (shelf, ShelfPluginVTable);
 
 const float SHELF_MIN_SIZE = 50.0f; // Minimum pixelsize a window can be scaled to

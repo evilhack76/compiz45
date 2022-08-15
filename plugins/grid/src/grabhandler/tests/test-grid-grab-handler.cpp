@@ -26,7 +26,7 @@
 
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <grabhandler.h>
 
@@ -40,6 +40,7 @@
 #define CompWindowGrabResizeMask      (1 << 3)
 #define CompWindowGrabExternalAppMask (1 << 4)
 
+using namespace boost::placeholders;
 using testing::Eq;
 using testing::Return;
 

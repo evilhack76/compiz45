@@ -38,6 +38,8 @@
 
 #define EDGE_STATE (CompAction::StateInitEdge)
 
+using namespace boost::placeholders;
+
 class ScalePluginVTable :
     public CompPlugin::VTableForScreenAndWindow<ScaleScreen, ScaleWindow, COMPIZ_SCALE_ABI>
 {

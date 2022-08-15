@@ -21,8 +21,10 @@
 #ifndef _COMPIZ_GTEST_SHARED_AUTODESTROY_H
 #define _COMPIZ_GTEST_SHARED_AUTODESTROY_H
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/shared_ptr.hpp>
+
+using namespace boost::placeholders;
 
 namespace
 {

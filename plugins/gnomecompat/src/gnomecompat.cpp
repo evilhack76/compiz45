@@ -25,6 +25,8 @@
 
 #include "gnomecompat.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (gnomecompat, GnomeCompatPluginVTable);
 
 static bool

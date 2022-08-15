@@ -52,7 +52,7 @@ typedef XBool Bool;
 #endif
 
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/foreach.hpp>
 #define foreach BOOST_FOREACH
 

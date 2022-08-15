@@ -20,6 +20,7 @@
 #include "compizconfig_ccs_backend_mock.h"
 #include "compizconfig_ccs_context_mock.h"
 
+using namespace boost::placeholders;
 using ::testing::_;
 using ::testing::AtLeast;
 using ::testing::SetArgPointee;

@@ -1036,7 +1036,7 @@ gwd_theme_cairo_get_button_position (GWDTheme *theme,
         gint position = 0;
         gint button = 0;
 
-        while (button != i) {
+        while (button < i) {
             if (button_present (decor, button))
                 position++;
             button++;

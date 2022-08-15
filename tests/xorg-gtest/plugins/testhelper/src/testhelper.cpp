@@ -24,8 +24,10 @@
 */
 
 #include <boost/shared_ptr.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include "testhelper.h"
+
+using namespace boost::placeholders;
 
 COMPIZ_PLUGIN_20090315 (testhelper, TestHelperPluginVTable)
 

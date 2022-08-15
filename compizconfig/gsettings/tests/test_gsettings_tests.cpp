@@ -1,7 +1,7 @@
 #include <tr1/tuple>
 
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/shared_ptr.hpp>
 
 #include <boost/shared_ptr.hpp>

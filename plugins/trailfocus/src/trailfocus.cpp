@@ -28,6 +28,8 @@
 #include "trailfocus.h"
 #include <core/atoms.h>
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (trailfocus, TrailfocusPluginVTable);
 
 /* Determines if a window should be handled by trailfocus or not */

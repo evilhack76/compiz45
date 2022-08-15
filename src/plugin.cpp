@@ -46,6 +46,8 @@
 
 #define foreach BOOST_FOREACH
 
+using namespace boost::placeholders;
+
 static const char here[] = "core";
 
 CompPlugin::Map pluginsMap;

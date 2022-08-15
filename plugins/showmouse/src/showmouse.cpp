@@ -29,6 +29,8 @@
 
 #include "showmouse.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (showmouse, ShowmousePluginVTable);
 
 /* 3 vertices per triangle, 2 triangles per particle */

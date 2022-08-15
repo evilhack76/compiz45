@@ -25,13 +25,14 @@
 
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <iostream>
 
 #include <X11/Xlib.h>
 #include "pixmap-requests.h"
 #include "compiz_decor_pixmap_requests_mock.h"
 
+using namespace boost::placeholders;
 using ::testing::AtLeast;
 using ::testing::Pointee;
 using ::testing::Return;

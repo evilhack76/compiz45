@@ -22,6 +22,8 @@
 
 #include "wallpaper.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (wallpaper, WallpaperPluginVTable);
 
 static Visual *
@@ -431,7 +433,7 @@ WallpaperWindow::drawBackgrounds (const GLMatrix            &transform,
     WALLPAPER_SCREEN (screen);
 
     CompRect              tmpRect;
-    GLTexture::Matrix     matrix;
+    GLTexture::Matrix     matrix = GLTexture::Matrix();
     GLTexture::MatrixList tmpMatrixList;
     WallpaperBackground   *back     = ws->getBackgroundForViewport (bg);
     GLWindowPaintAttrib   tmpAttrib = attrib;

@@ -1,4 +1,4 @@
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
@@ -6,6 +6,7 @@
 #include <core/servergrab.h>
 #include "glx-tfp-bind.h"
 
+using namespace boost::placeholders;
 using ::testing::InSequence;
 using ::testing::NiceMock;
 using ::testing::StrictMock;

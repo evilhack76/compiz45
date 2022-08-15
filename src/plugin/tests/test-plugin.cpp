@@ -13,6 +13,8 @@
 #include <gtest_shared_tmpenv.h>
 #include <gtest_shared_autodestroy.h>
 
+using namespace boost::placeholders;
+
 class CompMatch
 {
 };

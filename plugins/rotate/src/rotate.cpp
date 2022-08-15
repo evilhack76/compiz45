@@ -28,6 +28,8 @@
 
 #include <math.h>
 
+using namespace boost::placeholders;
+
 static const float ROTATE_POINTER_SENSITIVITY_FACTOR = 0.05f;
 
 COMPIZ_PLUGIN_20090315 (rotate, RotatePluginVTable)

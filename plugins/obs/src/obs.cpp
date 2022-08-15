@@ -26,6 +26,8 @@
 #include "obs.h"
 #include "obs_options.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (obs, ObsPluginVTable);
 
 const unsigned short MODIFIER_OPACITY    = 0;

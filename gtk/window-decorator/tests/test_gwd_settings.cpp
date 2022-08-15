@@ -24,7 +24,7 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <boost/function.hpp>
 #include <boost/shared_ptr.hpp>
 #include <boost/make_shared.hpp>
@@ -41,6 +41,7 @@
 
 #include "gwd-settings.h"
 
+using namespace boost::placeholders;
 using ::testing::Eq;
 using ::testing::Action;
 using ::testing::Values;

@@ -29,7 +29,7 @@
 #include <string>
 #include <list>
 #include <map>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <opengl/program.h>
 
 class PrivateProgramCache;

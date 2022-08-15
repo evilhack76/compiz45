@@ -33,6 +33,8 @@
 
 #include "scalefilter.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (scalefilter, ScalefilterPluginVTable);
 
 FilterInfo::FilterInfo (ScalefilterScreen *fs, const CompOutput& output) :

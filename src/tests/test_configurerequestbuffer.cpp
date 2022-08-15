@@ -25,13 +25,15 @@
 #include <deque>
 #include <boost/shared_ptr.hpp>
 #include <boost/make_shared.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
 #include <X11/Xlib.h>
 
 #include "configurerequestbuffer-impl.h"
 #include "asyncserverwindow.h"
+
+using namespace boost::placeholders;
 
 namespace crb = compiz::window::configure_buffers;
 namespace cw = compiz::window;

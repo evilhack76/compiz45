@@ -25,6 +25,8 @@
 
 #include "staticswitcher.h"
 
+using namespace boost::placeholders;
+
 COMPIZ_PLUGIN_20090315 (staticswitcher, StaticSwitchPluginVTable)
 
 const unsigned short ICON_SIZE = 48;

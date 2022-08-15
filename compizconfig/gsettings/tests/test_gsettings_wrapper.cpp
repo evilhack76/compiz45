@@ -5,7 +5,7 @@
 
 #include <boost/shared_ptr.hpp>
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <glib-object.h>
 #include <gio/gio.h>
@@ -16,6 +16,7 @@
 
 #include "test_gsettings_tests.h"
 
+using namespace boost::placeholders;
 using ::testing::NotNull;
 using ::testing::IsNull;
 using ::testing::Eq;
