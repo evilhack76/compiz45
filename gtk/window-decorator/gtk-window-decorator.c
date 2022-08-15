@@ -299,6 +299,7 @@ main (int argc, char *argv[])
 	return 1;
     }
 
+    wnck_set_client_type (WNCK_CLIENT_TYPE_PAGER);
     screen = wnck_screen_get_default ();
 
     initialize_decorations ();
@@ -340,8 +341,6 @@ main (int argc, char *argv[])
 	fprintf (stderr, "%s, Couldn't create tooltip window\n", argv[0]);
 	return 1;
     }
-
-    wnck_set_client_type (WNCK_CLIENT_TYPE_PAGER);
 
     gdk_window_add_filter (NULL,
 			   selection_event_filter_func,
