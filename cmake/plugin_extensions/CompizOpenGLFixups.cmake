@@ -2,9 +2,9 @@
 # modify pkg-config libs for opengl based on if we found GLES or not
 if (${COMPIZ_CURRENT_PLUGIN} STREQUAL "opengl")
     if (USE_GLES)
-	set (PKGCONFIG_LIBS "-lGLESv2 -lEGL")
+	set (PKGCONFIG_LIBS "${OPENGL_egl_LIBRARY} -lGLESv2")
     else (USE_GLES)
-	set (PKGCONFIG_LIBS "-lGL")
+	set (PKGCONFIG_LIBS "${OPENGL_opengl_LIBRARY} ${OPENGL_glx_LIBRARY}")
     endif (USE_GLES)
 endif (${COMPIZ_CURRENT_PLUGIN} STREQUAL "opengl")
 

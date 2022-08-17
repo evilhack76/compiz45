@@ -21,7 +21,7 @@ if (USE_GLES)
 else (USE_GLES)
     find_package (OpenGL)
     if (OPENGL_FOUND)
-	compiz_plugin(opengl PLUGINDEPS composite LIBRARIES ${OPENGL_gl_LIBRARY} ${INTERNAL_LIBRARIES} dl INCDIRS ${OPENGL_INCLUDE_DIR})
+	compiz_plugin(opengl PLUGINDEPS composite LIBRARIES ${OPENGL_opengl_LIBRARY} ${OPENGL_glx_LIBRARY} ${INTERNAL_LIBRARIES} dl INCDIRS ${OPENGL_INCLUDE_DIR})
     endif (OPENGL_FOUND)
 endif (USE_GLES)
 
