@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.17.0)
 
 if (POLICY CMP0072)
-    cmake_policy (SET CMP0072 OLD)
+    cmake_policy (SET CMP0072 NEW)
 endif ()
 
 if (POLICY CMP0077)
@@ -24,9 +24,9 @@ enable_testing()
 
 set (CMAKE_SKIP_RPATH FALSE)
 
-pkg_check_modules (GL QUIET gl)
+find_package(OpenGL)
 set (BUILD_GLES_DEFAULT OFF)
-if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "arm.*" OR NOT GL_FOUND)
+if (${CMAKE_SYSTEM_PROCESSOR} MATCHES "arm.*" OR NOT OpenGL_OpenGL_FOUND)
     set (BUILD_GLES_DEFAULT ON)
 endif ()
 option (BUILD_GLES "Build against GLESv2 instead of GL" ${BUILD_GLES_DEFAULT})
