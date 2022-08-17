@@ -1,3 +1,10 @@
+compiz (1:0.9.14.1+22.10.20220817-0ubuntu1) kinetic; urgency=medium
+
+  [ Alberts Muktupāvels ]
+  * Set CMake policy CMP0072 to NEW behavior
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Wed, 17 Aug 2022 16:58:51 +0000
+
 compiz (1:0.9.14.1+22.10.20220815.3-0ubuntu1) kinetic; urgency=medium
 
   [ Alberts Muktupāvels ]
