@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: YaST (@memory@)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 16:05+0300\n"
-"PO-Revision-Date: 2019-02-21 23:38+0000\n"
-"Last-Translator: Krasimir Chonov <mk2616@abv.bg>\n"
+"PO-Revision-Date: 2020-01-01 20:59+0000\n"
+"Last-Translator: Vasil Kashilski <Unknown>\n"
 "Language-Team: Bulgarian <i18n@suse.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-02-23 07:58+0000\n"
-"X-Generator: Launchpad (build 18886)\n"
+"X-Launchpad-Export-Date: 2022-08-20 07:02+0000\n"
+"X-Generator: Launchpad (build a7ed8521180d7bb33e1a127e53ad65268d6ca88f)\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
 msgid "Compiz"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../gtk/window-decorator/forcequit.c:159
 msgid "_Cancel"
-msgstr ""
+msgstr "_Отказ"
 
 #: ../gtk/window-decorator/forcequit.c:161
 msgid "_Force Quit"
@@ -94,11 +94,11 @@ msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:2
 msgid "Move window to workspace 1"
-msgstr ""
+msgstr "Преместване на прозореца в работен плот 1"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:3
 msgid "Move window to workspace 2"
-msgstr ""
+msgstr "Преместване на прозореца в работен плот 2"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:4
 msgid "Move window to workspace 3"
@@ -138,23 +138,23 @@ msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:13
 msgid "Move window to workspace 12"
-msgstr ""
+msgstr "Преместване на прозореца в работен плот 12"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
 msgid "Move window one workspace to the left"
-msgstr ""
+msgstr "Преместване на прозореца един работен плот наляво"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
 msgid "Move window one workspace to the right"
-msgstr ""
+msgstr "Преместване на прозореца един работен плот надясно"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
 msgid "Move window one workspace up"
-msgstr ""
+msgstr "Преместване на прозореца един работен плот нагоре"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
 msgid "Move window one workspace down"
-msgstr ""
+msgstr "Преместване на прозореца един работен плот надолу"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
 msgid "Switch applications"
@@ -166,55 +166,55 @@ msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
 msgid "Hide all normal windows"
-msgstr ""
+msgstr "Скриване на всички обикновени прозорци"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:21
 msgid "Switch to workspace 1"
-msgstr ""
+msgstr "Превключване към работен плот 1"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:22
 msgid "Switch to workspace 2"
-msgstr ""
+msgstr "Превключване към работен плот 2"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:23
 msgid "Switch to workspace 3"
-msgstr ""
+msgstr "Превключване към работен плот 3"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:24
 msgid "Switch to workspace 4"
-msgstr ""
+msgstr "Превключване към работен плот 4"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:25
 msgid "Switch to workspace 5"
-msgstr ""
+msgstr "Превключване към работен плот 5"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:26
 msgid "Switch to workspace 6"
-msgstr ""
+msgstr "Превключване към работен плот 6"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:27
 msgid "Switch to workspace 7"
-msgstr ""
+msgstr "Превключване към работен плот 7"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:28
 msgid "Switch to workspace 8"
-msgstr ""
+msgstr "Превключване към работен плот 8"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:29
 msgid "Switch to workspace 9"
-msgstr ""
+msgstr "Превключване към работен плот 9"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:30
 msgid "Switch to workspace 10"
-msgstr ""
+msgstr "Превключване към работен плот 10"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:31
 msgid "Switch to workspace 11"
-msgstr ""
+msgstr "Превключване към работен плот 11"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:32
 msgid "Switch to workspace 12"
-msgstr ""
+msgstr "Превключване към работен плот 12"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
 msgid "Switch to workspace left"
@@ -240,23 +240,23 @@ msgstr "Прозорци"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:2
 msgid "Activate the window menu"
-msgstr ""
+msgstr "Активирай менюто на прозореца"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:3
 msgid "Toggle fullscreen mode"
-msgstr ""
+msgstr "Режим на цял екран"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:4
 msgid "Toggle maximization state"
-msgstr ""
+msgstr "Превключване към максимизирано състояние"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:5
 msgid "Maximize window"
-msgstr ""
+msgstr "Максимизиране на прозорец"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:6
 msgid "Restore window"
-msgstr ""
+msgstr "Възстановяване на прозорец"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:7
 msgid "Toggle shaded state"
@@ -264,11 +264,11 @@ msgstr ""
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:8
 msgid "Close window"
-msgstr ""
+msgstr "Затвори прозореца"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:9
 msgid "Minimize window"
-msgstr ""
+msgstr "Минимизиране на прозореца"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:10
 msgid "Move window"
@@ -285,15 +285,15 @@ msgstr "Повдигане на прозореца над другите"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:13
 msgid "Lower window below other windows"
-msgstr ""
+msgstr "Понижаване на прозореца под другите прозорци"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:14
 msgid "Maximize window vertically"
-msgstr ""
+msgstr "Максимизиране на прозореца вертикално"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:15
 msgid "Maximize window horizontally"
-msgstr ""
+msgstr "Максимизиране на прозореца хоризонтално"
 
 #: ../metadata/core.xml.in.h:1 ../plugins/ring/ring.xml.in.h:23
 #: ../plugins/shift/shift.xml.in.h:34
@@ -377,6 +377,8 @@ msgid ""
 "Save the state of plugins when they are unloaded such they will resume their "
 "past internal state when reloaded"
 msgstr ""
+"Запазване на състоянието на плъгините, когато не са заредени, така че когато "
+"се заредят наново да се върнат към предишните си настройки."
 
 #: ../metadata/core.xml.in.h:19
 msgid "Display Settings"
@@ -535,11 +537,11 @@ msgstr "Демаксимизиране на активен прозорец"
 
 #: ../metadata/core.xml.in.h:62
 msgid "Unmaximize or Minimize Window"
-msgstr ""
+msgstr "Демаксимизира или минимализира прозореца"
 
 #: ../metadata/core.xml.in.h:63
 msgid "Unmaximize or minimize active window"
-msgstr ""
+msgstr "Демаксимизира или минимализира активиния прозорец"
 
 #: ../metadata/core.xml.in.h:64
 msgid "Maximize Window Horizontally"
@@ -579,7 +581,7 @@ msgstr "Превключване на максимизиран прозорец"
 
 #: ../metadata/core.xml.in.h:74
 msgid "Toggle active window maximized"
-msgstr ""
+msgstr "Максимизира активния прозорец"
 
 #: ../metadata/core.xml.in.h:75
 msgid "Toggle Window Maximized Horizontally"
@@ -627,12 +629,13 @@ msgstr "Множител на големина на екран за вертик
 
 #: ../plugins/addhelper/addhelper.xml.in.h:1
 msgid "Dim Inactive"
-msgstr ""
+msgstr "Затъмняване на неактивния"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:2
 msgid ""
 "Make it slightly easier to concentrate by dimming all but the active window."
 msgstr ""
+"Улеснява концентрацията, като затъмнява всички прозорци освен активния"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:3
 #: ../plugins/cubeaddon/cubeaddon.xml.in.h:4 ../plugins/expo/expo.xml.in.h:3
@@ -656,31 +659,31 @@ msgstr ""
 
 #: ../plugins/addhelper/addhelper.xml.in.h:5
 msgid "Use this to enable/disable AddHelper on the fly."
-msgstr ""
+msgstr "Използвайте това за включване/изключване на AddHelper-а в движение."
 
 #: ../plugins/addhelper/addhelper.xml.in.h:6 ../plugins/group/group.xml.in.h:63
 #: ../plugins/opacify/opacify.xml.in.h:6 ../plugins/put/put.xml.in.h:69
 #: ../plugins/td/td.xml.in.h:3
 msgid "Misc. Options"
-msgstr ""
+msgstr "Други опции"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:7
 #: ../plugins/showdesktop/showdesktop.xml.in.h:23
 #: ../plugins/trailfocus/trailfocus.xml.in.h:4
 msgid "Window Types"
-msgstr ""
+msgstr "Тип на прозореца"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:8
 msgid "Window types that should be Opacified."
-msgstr ""
+msgstr "Типове прозорци, които трябва да са непрозрачни."
 
 #: ../plugins/addhelper/addhelper.xml.in.h:9
 msgid "Enable ADD Helper on start"
-msgstr ""
+msgstr "Включване на ADD Helper при стартиране"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:10
 msgid "Enables ADD helper when it is first loaded."
-msgstr ""
+msgstr "Включване на ADD Helper, когато е зареден за пръв път."
 
 #: ../plugins/addhelper/addhelper.xml.in.h:11 ../plugins/expo/expo.xml.in.h:58
 #: ../plugins/group/group.xml.in.h:54 ../plugins/loginout/loginout.xml.in.h:10
@@ -693,7 +696,7 @@ msgstr "Яркост"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:12
 msgid "Brightness of faded windows"
-msgstr ""
+msgstr "Яркост на избледнелите прозорци"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:13
 #: ../plugins/animationjc/animationjc.xml.in.h:10
@@ -708,7 +711,7 @@ msgstr "Наситеност"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:14
 msgid "Saturation of faded windows"
-msgstr ""
+msgstr "Наситеност на избледнелите прозорци"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:15
 #: ../plugins/group/group.xml.in.h:50 ../plugins/loginout/loginout.xml.in.h:12
@@ -725,35 +728,35 @@ msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:1
 msgid "Animations"
-msgstr ""
+msgstr "Анимации"
 
 #: ../plugins/animation/animation.xml.in.h:2
 msgid "Use various animations as window effects"
-msgstr ""
+msgstr "Използване на различни анимации като ефекти на прозорец"
 
 #: ../plugins/animation/animation.xml.in.h:3
 msgid "Open Animation"
-msgstr ""
+msgstr "Анимация при отваряне"
 
 #: ../plugins/animation/animation.xml.in.h:4
 msgid "Animation Selection"
-msgstr ""
+msgstr "Избор на анимация"
 
 #: ../plugins/animation/animation.xml.in.h:5
 msgid "Open Effect"
-msgstr ""
+msgstr "Ефект при отваряне"
 
 #: ../plugins/animation/animation.xml.in.h:6
 msgid "The animation effect shown when creating a window."
-msgstr ""
+msgstr "Анимацията, която се показва при създаване на прозорец."
 
 #: ../plugins/animation/animation.xml.in.h:7 ../plugins/trip/trip.xml.in.h:18
 msgid "Duration"
-msgstr ""
+msgstr "Продължителност"
 
 #: ../plugins/animation/animation.xml.in.h:8
 msgid "Animation duration in milliseconds for open effect."
-msgstr ""
+msgstr "Продължителност на анимацията в милисекунди за ефект при отваряне."
 
 #: ../plugins/animation/animation.xml.in.h:9
 #: ../plugins/fadedesktop/fadedesktop.xml.in.h:5
@@ -763,101 +766,105 @@ msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:10
 msgid "The windows that will be animated."
-msgstr ""
+msgstr "Прозорците, които ще бъдат анимирани."
 
 #: ../plugins/animation/animation.xml.in.h:11
 #: ../plugins/group/group.xml.in.h:49
 #: ../plugins/maximumize/maximumize.xml.in.h:3
 msgid "Options"
-msgstr ""
+msgstr "Опции"
 
 #: ../plugins/animation/animation.xml.in.h:12
 msgid ""
 "Comma separated list of option value assignments to override effect "
 "settings, e.g.: fire_color=#0080ffff, fire_particles=700, fire_smoke=1"
 msgstr ""
+"Списък с разделени със запетая опции, чиито стойности ще заменят настройките "
+"с ефекти, например: fire_color=#0080ffff, fire_particles=700, fire_smoke=1"
 
 #: ../plugins/animation/animation.xml.in.h:13
 msgid "Random Effects"
-msgstr ""
+msgstr "Случайни ефекти"
 
 #: ../plugins/animation/animation.xml.in.h:14
 msgid "Pool"
-msgstr ""
+msgstr "Набор"
 
 #: ../plugins/animation/animation.xml.in.h:15
 msgid ""
 "Pool of effects to be chosen from if Random effect is selected. Click reset "
 "to use all effects."
 msgstr ""
+"Избор измежду ефекти, ако е избран Произволен ефект. Натиснете 'нулиране', "
+"за да се използват всички ефекти."
 
 #: ../plugins/animation/animation.xml.in.h:16
 msgid "Close Animation"
-msgstr ""
+msgstr "Анимация при затваряне"
 
 #: ../plugins/animation/animation.xml.in.h:17
 msgid "Close Effect"
-msgstr ""
+msgstr "Ефект при затваряне"
 
 #: ../plugins/animation/animation.xml.in.h:18
 msgid "The animation effect shown when closing a window."
-msgstr ""
+msgstr "Анимацията при затваряне на прозорец."
 
 #: ../plugins/animation/animation.xml.in.h:19
 msgid "Animation duration in milliseconds for close effect."
-msgstr ""
+msgstr "Продължителност на анимация в милисекунди за ефект на затваряне."
 
 #: ../plugins/animation/animation.xml.in.h:20
 msgid "Minimize Animation"
-msgstr ""
+msgstr "Анимация при минимизиране"
 
 #: ../plugins/animation/animation.xml.in.h:21
 msgid "Minimize Effect"
-msgstr ""
+msgstr "Ефект на минимизиране"
 
 #: ../plugins/animation/animation.xml.in.h:22
 msgid "The animation effect shown when minimizing a window."
-msgstr ""
+msgstr "Анимация при минимизиране на прозорец."
 
 #: ../plugins/animation/animation.xml.in.h:23
 msgid "Animation duration in milliseconds for minimize effect."
-msgstr ""
+msgstr "Продължителност на анимация в милисекунди за ефект при минимизиране."
 
 #: ../plugins/animation/animation.xml.in.h:24
 msgid "Unminimize Animation"
-msgstr ""
+msgstr "Анимаци при деминимизиране"
 
 #: ../plugins/animation/animation.xml.in.h:25
 msgid "Unminimize Effect"
-msgstr ""
+msgstr "Ефект при деминимизиране"
 
 #: ../plugins/animation/animation.xml.in.h:26
 msgid "The animation effect shown when unminimizing a window."
-msgstr ""
+msgstr "Анимацията при деминимизиране на прозорец"
 
 #: ../plugins/animation/animation.xml.in.h:27
 msgid "Animation duration in milliseconds for unminimize effect."
-msgstr ""
+msgstr "Продължителност в милисекунди за деминимизиращия ефект"
 
 #: ../plugins/animation/animation.xml.in.h:28
 msgid "Shade Animation"
-msgstr ""
+msgstr "Анимация със засенчване"
 
 #: ../plugins/animation/animation.xml.in.h:29
 msgid "Shade Effect"
-msgstr ""
+msgstr "Засенчващ ефект"
 
 #: ../plugins/animation/animation.xml.in.h:30
 msgid "The animation effect shown when shading a window."
-msgstr ""
+msgstr "Ефект на анимацията при засенчване на прозорец"
 
 #: ../plugins/animation/animation.xml.in.h:31
 msgid "Animation duration in milliseconds for shade effect."
-msgstr ""
+msgstr "Продължителност на анимацията в милисекунди за засенчващ ефект"
 
 #: ../plugins/animation/animation.xml.in.h:32
 msgid "Window that should animate with this effect when shaded."
-msgstr ""
+msgstr "Прозорец, който да се анимира с този ефект когато е засенчен"
 
 #: ../plugins/animation/animation.xml.in.h:33
 msgid "Focus Animation"
@@ -887,31 +894,35 @@ msgstr ""
 #: ../plugins/simple-animations/animationsim.xml.in.h:3
 #: ../plugins/trip/trip.xml.in.h:13
 msgid "Effect Settings"
-msgstr ""
+msgstr "Настройки на ефекта"
 
 #: ../plugins/animation/animation.xml.in.h:39
 msgid "Random Animations For All Events"
-msgstr ""
+msgstr "Произволни анимации за всички събития"
 
 #: ../plugins/animation/animation.xml.in.h:40
 msgid ""
 "All effects are chosen randomly, ignoring the selected effect. If None is "
 "selected for an event, that event won't be animated."
 msgstr ""
+"Ефектите са избрани случайно, пренебрегвайки избрания ефект. Ако никой не е "
+"избран за дадено събитие, той няма да се анимира."
 
 #: ../plugins/animation/animation.xml.in.h:41
 msgid "Animation Time Step"
-msgstr ""
+msgstr "Времева стъпка на анимация"
 
 #: ../plugins/animation/animation.xml.in.h:42
 msgid ""
 "The amount of time in milliseconds between each render of the animation. The "
 "higher the number, the jerkier the movements become."
 msgstr ""
+"Времето в милисекунди между всяко изображение на анимацията. По-високи "
+"стойности могат да причинят трептене."
 
 #: ../plugins/animation/animation.xml.in.h:43
 msgid "Curved Fold"
-msgstr ""
+msgstr "Извито сгъване"
 
 #: ../plugins/animation/animation.xml.in.h:44
 msgid "Amplitude Multiplier"
@@ -925,13 +936,15 @@ msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:46
 msgid "Zoom to TaskBar on Minimize"
-msgstr ""
+msgstr "Мащабиране до лентата за задачи при минимизиране"
 
 #: ../plugins/animation/animation.xml.in.h:47
 msgid ""
 "Whether the window should zoom to taskbar when minimized with Curved Fold "
 "effect."
 msgstr ""
+"Дали прозореца трябва да се мащабира до лентата за задачи, когато се "
+"минимизира с ефекта Извито сгъване."
 
 #: ../plugins/animation/animation.xml.in.h:48
 msgid "Dodge"

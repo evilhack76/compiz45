@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: compiz\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-03-24 12:33+0530\n"
-"PO-Revision-Date: 2016-05-07 07:23+0000\n"
-"Last-Translator: stuartlittle <Stuartlittle1970@gmail.com>\n"
+"PO-Revision-Date: 2021-05-07 07:31+0000\n"
+"Last-Translator: Mykola Tkach <chistomov@gmail.com>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
-"X-Generator: Launchpad (build 18886)\n"
+"X-Launchpad-Export-Date: 2022-08-20 07:00+0000\n"
+"X-Generator: Launchpad (build a7ed8521180d7bb33e1a127e53ad65268d6ca88f)\n"
 
 #, python-format
 msgid ""
@@ -25,10 +25,10 @@ msgid ""
 "Do you wish to disable <b>%(action_conflict)s</b> in the "
 "<b>%(plugin_conflict)s</b> plugin?"
 msgstr ""
-"Нове значення комбінації %(binding)s для дії <b>%(action)s</b> у додатку "
-"<b>%(plugin)s</b> конфліктує з дією <b>%(action_conflict)s</b> додатку "
-"<b>%(plugin_conflict)s</b>.\n"
-"Деактивувати <b>%(action_conflict)s</b> у додатку <b>%(plugin_conflict)s</b>?"
+"Нове значення комбінації клавішів %(binding)s для дії <b>%(action)s</b> у "
+"втулку <b>%(plugin)s</b> конфліктує з дією <b>%(action_conflict)s</b> "
+"плагіну <b>%(plugin_conflict)s</b>.\n"
+"Деактивувати <b>%(action_conflict)s</b> в плагіні <b>%(plugin_conflict)s</b>?"
 
 #, python-format
 msgid "Disable %(action_conflict)s"
@@ -43,7 +43,7 @@ msgid "Set %(action)s anyway"
 msgstr "Все одно увімкнути %(action)s"
 
 msgid "key"
-msgstr "клявіша"
+msgstr "клавіш"
 
 msgid "button"
 msgstr "кнопка"
@@ -78,7 +78,7 @@ msgid ""
 msgstr ""
 "Ви намагаєтеся використати функцію <b>%(feature)s</b>, яка надається "
 "<b>%(plugin)s</b>.\n"
-"Наразі цю втулку вимкнено.\n"
+"Наразі цей втулок вимкнено.\n"
 "Увімкнути <b>%(plugin)s</b>, для того, щоб зробити дану функцію доступною?"
 
 #, python-format
@@ -94,8 +94,8 @@ msgid ""
 "Some %(bindings)s bindings of Plugin <b>%(plugin)s</b> conflict with other "
 "plugins. Do you want to resolve these conflicts?"
 msgstr ""
-"Деякі комбінації %(bindings)s додатку <b>%(plugin)s</b> конфліктують з "
-"іншими додатками. Розв’язати дані конфлікти?"
+"Деякі комбінації %(bindings)s додатку <b>%(plugin)s</b> конфліктують із "
+"иншими додатками. Розв’язати дані конфлікти?"
 
 msgid "Resolve conflicts"
 msgstr "Розв’язати конфлікти"
@@ -109,7 +109,7 @@ msgid ""
 "is also provided by <b>%(plugin)s</b>"
 msgstr ""
 "Додаток <b>%(plugin_conflict)s</b> надає можливість <b>%(feature)s</b>, яка "
-"також надається втулкою <b>%(plugin)s</b>"
+"також надається втулком <b>%(plugin)s</b>"
 
 #, python-format
 msgid "Disable %(plugin_conflict)s"
@@ -130,7 +130,7 @@ msgid ""
 "%(plugin_list)s"
 msgstr ""
 "Додатку <b>%(plugin)s</b> необхідна функція <b>%(feature)s</b>, яка "
-"надається наступними додатками:\n"
+"надається такими додатками:\n"
 "%(plugin_list)s"
 
 msgid "Enable these plugins"
@@ -138,7 +138,7 @@ msgstr "Увімкнути ці додатки"
 
 #, python-format
 msgid "<b>%(plugin)s</b> requires the plugin <b>%(require)s</b>."
-msgstr "<b>%(plugin)s</b> вимагає втулку <b>%(require)s</b>."
+msgstr "<b>%(plugin)s</b> вимагає втулок <b>%(require)s</b>."
 
 #, python-format
 msgid "Enable %(require)s"
@@ -213,7 +213,7 @@ msgstr "Редагувати %s"
 
 #, python-format
 msgid "\"%s\" is not a valid shortcut"
-msgstr "\"%s\" є неправильним сполученням клявіш"
+msgstr "\"%s\" є неправильним сполученням клавішів"
 
 msgid "Disabled"
 msgstr "Вимкнено"
@@ -222,11 +222,11 @@ msgid "Enabled"
 msgstr "Увімкнено"
 
 msgid "Grab key combination"
-msgstr "Захопити сполучення клявіш"
+msgstr "Захопити сполучення клавішів"
 
 #, python-format
 msgid "\"%s\" is not a valid button"
-msgstr "\"%s\" неправильна клавіша"
+msgstr "\"%s\" неправильний клавіш"
 
 #, python-format
 msgid ""
@@ -235,7 +235,7 @@ msgid ""
 msgstr ""
 "Використання Button1 без модифікаторів може попередити будь-яке ліве "
 "натиснення й це зіпсує Вашу конфігурацію. Ви справді бажаєте встановити "
-"клявішу \"%s\" на Button1 ?"
+"клавіш \"%s\" на Button1 ?"
 
 #, python-format
 msgid "\"%s\" is not a valid edge mask"
@@ -251,7 +251,7 @@ msgid "Plugin"
 msgstr "Додаток"
 
 msgid "Please press the new key combination"
-msgstr "Будь ласка, натисніть нову сполучення клявіш"
+msgstr "Будь ласка, натисніть нове сполучення клавішів"
 
 msgid "Window Title"
 msgstr "Заголовок вікна"
@@ -263,7 +263,7 @@ msgid "Window Name"
 msgstr "Назва вікна"
 
 msgid "Window Class"
-msgstr "Кляса вікна"
+msgstr "Клас вікна"
 
 msgid "Window Type"
 msgstr "Тип вікна"
@@ -320,12 +320,12 @@ msgstr "Це керівник налаштувань для системи ко�
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
+"  Mykola Tkach https://launchpad.net/~stuartlittle1970\n"
 "  Nazarii Ritter https://launchpad.net/~nazariy-ritter\n"
-"  stuartlittle https://launchpad.net/~stuartlittle1970\n"
 "  Николай Матвиенко https://launchpad.net/~provocator"
 
 msgid "An error has occured"
-msgstr "Трапилася помилка"
+msgstr "Трапилась помилка"
 
 msgid "Warning"
 msgstr "Попередження"
@@ -339,7 +339,7 @@ msgstr "Фільтр"
 
 #, python-format
 msgid "Search %s Plugin Options"
-msgstr "Пошук %s опцій втулки"
+msgstr "Пошук %s опцій втулка"
 
 msgid "Use This Plugin"
 msgstr "Використовувати цей додаток"
@@ -427,7 +427,7 @@ msgid "Integration"
 msgstr "Інтеграція"
 
 msgid "Enable integration into the desktop environment"
-msgstr "Увімкнути інтеграцію у оточення стільниці"
+msgstr "Увімкнути інтеграцію в оточення стільниці"
 
 msgid "Profiles (*.profile)"
 msgstr "Профілі (*.profile)"
@@ -449,14 +449,14 @@ msgid "Enter a profile name"
 msgstr "Уведіть ім'я профілю"
 
 msgid "Please enter a name for the new profile:"
-msgstr "Будь ласка, уведіть назву нового профілю:"
+msgstr "Будь ласка, введіть назву нового профілю:"
 
 msgid "Backend not found."
 msgstr "Бекенд не знайдено."
 
 #. Auto sort
 msgid "Automatic plugin sorting"
-msgstr "Автоматичне сортування модулів"
+msgstr "Автоматичне ґатункування втулків"
 
 msgid "Disabled Plugins"
 msgstr "Вимкнені додатки"
@@ -469,7 +469,7 @@ msgid ""
 "disable conflict handling. You should only do this if you know what you are "
 "doing."
 msgstr ""
-"Ви справді бажаєте вимкнути автоматичне сортування модулів? Це вимкне "
+"Ви справді бажаєте вимкнути автоматичне ґатункування втулків? Це вимкне "
 "опрацювання конфліктів. Ви можете це зробити лише якщо знаєте, що робите."
 
 msgid "Add plugin"
@@ -488,7 +488,7 @@ msgid ""
 "Configure the backend, profile and other internal settings used by the "
 "Compiz Configuration System."
 msgstr ""
-"Конфігурувати бекенд, профіль та інші внутрішні налаштування використовуючи "
+"Конфігурувати бекенд, профіль і инші внутрішні налаштування використовуючи "
 "систему конфігурації Compiz."
 
 msgid "About"
@@ -501,10 +501,10 @@ msgid "Profile & Backend"
 msgstr "Профіль & Бекенд"
 
 msgid "Plugin List"
-msgstr "Список додатків"
+msgstr "Перелік додатків"
 
 msgid "Filter your Plugin list"
-msgstr "Відфільтрувати ваш список додатків"
+msgstr "Відфільтрувати ваш перелік додатків"
 
 #, python-format
 msgid "Screen %i"

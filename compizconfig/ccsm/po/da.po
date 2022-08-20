@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.opencompositing.org\n"
 "POT-Creation-Date: 2009-03-24 12:33+0530\n"
-"PO-Revision-Date: 2017-10-30 12:45+0000\n"
+"PO-Revision-Date: 2020-08-02 19:49+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-02-21 18:44+0000\n"
-"X-Generator: Launchpad (build 18886)\n"
+"X-Launchpad-Export-Date: 2022-08-20 07:00+0000\n"
+"X-Generator: Launchpad (build a7ed8521180d7bb33e1a127e53ad65268d6ca88f)\n"
 "Language: da\n"
 
 #, python-format
@@ -187,7 +187,7 @@ msgid "Image Loading"
 msgstr "Billedindlæsning"
 
 msgid "Utility"
-msgstr "Redskab"
+msgstr "Redskaber"
 
 msgid "All"
 msgstr "Alt"
@@ -301,7 +301,7 @@ msgid "Invert"
 msgstr "Omvendt"
 
 msgid "Browse..."
-msgstr "Gennemse..."
+msgstr "Gennemse ..."
 
 msgid "Images"
 msgstr "Billeder"
@@ -310,10 +310,10 @@ msgid "File"
 msgstr "Fil"
 
 msgid "Open directory..."
-msgstr "Åbn mappe..."
+msgstr "Åbn mappe ..."
 
 msgid "Open file..."
-msgstr "Åbn fil..."
+msgstr "Åbn fil ..."
 
 msgid "This is a settings manager for the CompizConfig configuration system."
 msgstr ""
@@ -342,7 +342,7 @@ msgid "Search %s Plugin Options"
 msgstr "Søg efter valgmuligheder i %s-plugin"
 
 msgid "Use This Plugin"
-msgstr "Brug dette plugin"
+msgstr "Brug pluginet"
 
 msgid "Search Compiz Core Options"
 msgstr "Søg efter valgmuligheder i Compiz-kernen"
@@ -358,7 +358,7 @@ msgstr ""
 "Klik på tastaturbilledet for at indfange en tast der skal søges efter."
 
 msgid "Search in..."
-msgstr "Søg i..."
+msgstr "Søg i ..."
 
 #. Options
 msgid "Short description and name"
@@ -368,7 +368,7 @@ msgid "Long description"
 msgstr "Lang beskrivelse"
 
 msgid "Settings value"
-msgstr "Indstillingsværdi"
+msgstr "Indstillingens værdi"
 
 msgid "Group"
 msgstr "Gruppe"
@@ -402,7 +402,7 @@ msgid "Import a CompizConfig Profile"
 msgstr "Importér en CompizConfig-profil"
 
 msgid "Import as..."
-msgstr "Importér som..."
+msgstr "Importér som ..."
 
 msgid "Import a CompizConfig Profile as a new profile"
 msgstr "Importér en CompizConfig-profil som en ny profil"
@@ -496,7 +496,7 @@ msgid "About"
 msgstr "Om"
 
 msgid "About CCSM..."
-msgstr "Om CCSM..."
+msgstr "Om CCSM ..."
 
 msgid "Profile & Backend"
 msgstr "Profil og backend"

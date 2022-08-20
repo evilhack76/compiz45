@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Compiz\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 16:05+0300\n"
-"PO-Revision-Date: 2019-10-30 20:29+0000\n"
+"PO-Revision-Date: 2020-12-31 20:25+0000\n"
 "Last-Translator: Toni Estevez <toni.estevez@gmail.com>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-11-26 17:49+0000\n"
-"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
+"X-Launchpad-Export-Date: 2022-08-20 07:02+0000\n"
+"X-Generator: Launchpad (build a7ed8521180d7bb33e1a127e53ad65268d6ca88f)\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
 msgid "Compiz"
@@ -69,7 +69,7 @@ msgstr "Desprender"
 #: ../gtk/window-decorator/forcequit.c:143
 #, c-format
 msgid "The window \"%s\" is not responding."
-msgstr "La ventana «%s» no responde."
+msgstr "La ventana «%s» no está respondiendo."
 
 #: ../gtk/window-decorator/forcequit.c:147
 msgid ""
@@ -104,19 +104,19 @@ msgstr "Mover la ventana al área de trabajo 3"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:5
 msgid "Move window to workspace 4"
-msgstr "Mover la ventana al área de trabajo 4"
+msgstr "Mover ventana al área de trabajo 4"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:6
 msgid "Move window to workspace 5"
-msgstr "Mover la ventana al área de trabajo 5"
+msgstr "Mover ventana al área de trabajo 5"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:7
 msgid "Move window to workspace 6"
-msgstr "Mover la ventana al área de trabajo 6"
+msgstr "Mover ventana al área de trabajo 6"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:8
 msgid "Move window to workspace 7"
-msgstr "Mover la ventana al área de trabajo 7"
+msgstr "Mover ventana al área de trabajo 7"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:9
 msgid "Move window to workspace 8"
@@ -124,43 +124,43 @@ msgstr "Mover la ventana al área de trabajo 8"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:10
 msgid "Move window to workspace 9"
-msgstr "Mover la ventana al área de trabajo 9"
+msgstr "Mover ventana al área de trabajo 9"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:11
 msgid "Move window to workspace 10"
-msgstr "Mover la ventana al área de trabajo 10"
+msgstr "Mover ventana al área de trabajo 10"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:12
 msgid "Move window to workspace 11"
-msgstr "Mover la ventana al área de trabajo 11"
+msgstr "Mover ventana al área de trabajo 11"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:13
 msgid "Move window to workspace 12"
-msgstr "Mover la ventana al área de trabajo 12"
+msgstr "Mover ventana al área de trabajo 12"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
 msgid "Move window one workspace to the left"
-msgstr "Mover la ventana un área de trabajo a la izquierda"
+msgstr "Mover la ventana un espacio de trabajo hacia la izquierda"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
 msgid "Move window one workspace to the right"
-msgstr "Mover la ventana un área de trabajo a la derecha"
+msgstr "Mover la ventana un espacio de trabajo hacia la derecha"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
 msgid "Move window one workspace up"
-msgstr "Mover la ventana un área de trabajo hacia arriba"
+msgstr "Mover la ventana un espacio de trabajo hacia arriba"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
 msgid "Move window one workspace down"
-msgstr "Mover la ventana un área de trabajo hacia abajo"
+msgstr "Bajar la ventana un área de trabajo"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
 msgid "Switch applications"
-msgstr "Cambiar entre aplicaciones"
+msgstr "Moverse entre aplicaciones"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:19
 msgid "Switch windows of an app directly"
-msgstr "Cambiar entre ventanas de una aplicación directamente"
+msgstr "Moverse entre las ventanas de una aplicación directamente"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
 msgid "Hide all normal windows"
@@ -176,7 +176,7 @@ msgstr "Cambiar al área de trabajo 2"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:23
 msgid "Switch to workspace 3"
-msgstr "Cambiar al área de trabajo 3"
+msgstr "Cambiar al área de trabajo 3"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:24
 msgid "Switch to workspace 4"
@@ -184,19 +184,19 @@ msgstr "Cambiar al área de trabajo 4"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:25
 msgid "Switch to workspace 5"
-msgstr "Cambiar al área de trabajo 5"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:26
 msgid "Switch to workspace 6"
-msgstr "Cambiar al área de trabajo 6"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:27
 msgid "Switch to workspace 7"
-msgstr "Cambiar al área de trabajo 7"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:28
 msgid "Switch to workspace 8"
-msgstr "Cambiar al área de trabajo 8"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:29
 msgid "Switch to workspace 9"
@@ -204,23 +204,23 @@ msgstr "Cambiar al área de trabajo 9"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:30
 msgid "Switch to workspace 10"
-msgstr "Cambiar al área de trabajo 10"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:31
 msgid "Switch to workspace 11"
-msgstr "Cambiar al área de trabajo 11"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:32
 msgid "Switch to workspace 12"
-msgstr "Cambiar al área de trabajo 12"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
 msgid "Switch to workspace left"
-msgstr "Cambiar al área de trabajo de la izquierda"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:34
 msgid "Switch to workspace right"
-msgstr "Cambiar al área de trabajo de la derecha"
+msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:35
 msgid "Switch to workspace above"
@@ -945,17 +945,19 @@ msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:46
 msgid "Zoom to TaskBar on Minimize"
-msgstr ""
+msgstr "Acercar a la barra de tareas al minimizar"
 
 #: ../plugins/animation/animation.xml.in.h:47
 msgid ""
 "Whether the window should zoom to taskbar when minimized with Curved Fold "
 "effect."
 msgstr ""
+"Si la ventana debe acercarse a la barra de tareas cuando se minimiza con el "
+"efecto de pliegue curvo."
 
 #: ../plugins/animation/animation.xml.in.h:48
 msgid "Dodge"
-msgstr ""
+msgstr "Esquivar"
 
 #: ../plugins/animation/animation.xml.in.h:49 ../plugins/mag/mag.xml.in.h:8
 #: ../plugins/place/place.xml.in.h:34
@@ -986,21 +988,23 @@ msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:55
 msgid "Dream"
-msgstr ""
+msgstr "Sueño"
 
 #: ../plugins/animation/animation.xml.in.h:56
 msgid ""
 "Whether the window should zoom to taskbar when minimized with Dream effect."
 msgstr ""
+"Si la ventana debe acercarse a la barra de tareas cuando se minimiza con el "
+"efecto sueño."
 
 #: ../plugins/animation/animation.xml.in.h:57
 msgid "Glide 1"
-msgstr ""
+msgstr "Deslizamiento 1"
 
 #: ../plugins/animation/animation.xml.in.h:58
 #: ../plugins/animationaddon/animationaddon.xml.in.h:74
 msgid "Away Position"
-msgstr ""
+msgstr "Posición de alejamiento"
 
 #: ../plugins/animation/animation.xml.in.h:59
 #: ../plugins/animationaddon/animationaddon.xml.in.h:75
@@ -1008,65 +1012,77 @@ msgid ""
 "Closeness of window to camera at the end of the animation (1.0: Close to "
 "camera, -2.0: Away from camera)."
 msgstr ""
+"Cercanía de la ventana a la cámara al final de la animación (1.0 Cerca de la "
+"cámara, -2.0 lejos de la cámara)"
 
 #: ../plugins/animation/animation.xml.in.h:60
 #: ../plugins/animationaddon/animationaddon.xml.in.h:76
 msgid "Away Angle"
-msgstr ""
+msgstr "Ángulo de alejamiento"
 
 #: ../plugins/animation/animation.xml.in.h:61
 #: ../plugins/animationaddon/animationaddon.xml.in.h:77
 msgid "Angle of window at the end of the animation."
-msgstr ""
+msgstr "Ángulo de la ventana al final de la animación"
 
 #: ../plugins/animation/animation.xml.in.h:62
 msgid ""
 "Whether the window should zoom to taskbar when minimized with Glide 1 effect."
 msgstr ""
+"Si la ventana debe acercarse a la barra de tareas cuando se minimiza con el "
+"efecto deslizamiento 1."
 
 #: ../plugins/animation/animation.xml.in.h:63
 msgid "Glide 2"
-msgstr ""
+msgstr "Deslizamiento 2"
 
 #: ../plugins/animation/animation.xml.in.h:64
 msgid ""
 "Whether the window should zoom to taskbar when minimized with Glide 2 effect."
 msgstr ""
+"Si la ventana debe acercarse a la barra de tareas cuando se minimiza con el "
+"efecto deslizamiento 2."
 
 #: ../plugins/animation/animation.xml.in.h:65
 msgid "Horizontal Folds"
-msgstr ""
+msgstr "Pliegues horizontales"
 
 #: ../plugins/animation/animation.xml.in.h:66
 msgid "Number of Horizontal Folds"
-msgstr ""
+msgstr "Número de pliegues horizontales"
 
 #: ../plugins/animation/animation.xml.in.h:67
 msgid ""
 "The number of horizontal folds that occur in the Horizontal Fold animation."
 msgstr ""
+"El número de pliegues horizontales que se producen en la animación pliegue "
+"horizontal."
 
 #: ../plugins/animation/animation.xml.in.h:68
 msgid ""
 "Whether the window should zoom to taskbar when minimized with Horizontal "
 "Folds effect."
 msgstr ""
+"Si la ventana debe acercarse a la barra de tareas cuando se minimiza con el "
+"efecto pliegue horizontal."
 
 #: ../plugins/animation/animation.xml.in.h:69
 msgid "Magic Lamp"
-msgstr ""
+msgstr "Lámpara mágica"
 
 #: ../plugins/animation/animation.xml.in.h:70
 msgid "Open/Close Moving End"
-msgstr ""
+msgstr "Abrir/cerrar el final del movimiento"
 
 #: ../plugins/animation/animation.xml.in.h:71
 msgid "On open/close, move magic lamp ending point with the mouse pointer."
 msgstr ""
+"Al abrir/cerrar, mover el punto final de la lámpara mágica con el puntero "
+"del ratón."
 
 #: ../plugins/animation/animation.xml.in.h:72
 msgid "Grid Y Resolution"
-msgstr ""
+msgstr "Resolución de la rejilla Y"
 
 #: ../plugins/animation/animation.xml.in.h:73
 msgid ""
@@ -1074,20 +1090,26 @@ msgid ""
 "of points used to define the curves. The higher the number, the smoother the "
 "curves. However there will be a loss of performance (CPU usage increases)."
 msgstr ""
+"Resolución de la rejilla de vértices de la lámpara mágica (eje Y solamente). "
+"Este es el número de puntos usados para definir las curvas. Cuanto mayor sea "
+"el número, más suaves serán las curvas. Sin embargo, habrá una pérdida de "
+"rendimiento (se incrementa el uso del procesador)."
 
 #: ../plugins/animation/animation.xml.in.h:74
 msgid "Open Start Width"
-msgstr ""
+msgstr "Abrir el ancho inicial"
 
 #: ../plugins/animation/animation.xml.in.h:75
 msgid ""
 "Starting width of open effect and ending width of close effect for Magic "
 "Lamp."
 msgstr ""
+"Ancho inicial del efecto de apertura y ancho final del efecto de cierre de "
+"la lámpara mágica."
 
 #: ../plugins/animation/animation.xml.in.h:76
 msgid "Magic Lamp Wavy"
-msgstr ""
+msgstr "Lámpara mágica ondulada"
 
 #: ../plugins/animation/animation.xml.in.h:77
 msgid ""
@@ -1096,38 +1118,48 @@ msgid ""
 "smoother the curves. However there will be a loss of performance (CPU usage "
 "increases)."
 msgstr ""
+"Resolución de la rejilla de vértices para la lámpara mágica ondulada (eje Y "
+"solamente). Este es el número de puntos usados para definir las curvas. "
+"Cuanto mayor sea el número, más suaves serán las curvas. Sin embargo, habrá "
+"una pérdida de rendimiento (se incrementa el uso del procesador)."
 
 #: ../plugins/animation/animation.xml.in.h:78
 msgid "Max Waves"
-msgstr ""
+msgstr "Máximo de ondas"
 
 #: ../plugins/animation/animation.xml.in.h:79
 msgid "The maximum number of waves for Magic Lamp Wavy."
-msgstr ""
+msgstr "Número máximo de ondas para la lámpara mágica ondulada."
 
 #: ../plugins/animation/animation.xml.in.h:80
 msgid "Min Wave Amplitude"
-msgstr ""
+msgstr "Amplitud de onda mínima"
 
 #: ../plugins/animation/animation.xml.in.h:81
 msgid ""
 "The minimum wave amplitude (size of the waves) Magic Lamp Wavy will have."
 msgstr ""
+"Mínima amplitud de onda (tamaño de las ondas) que tendrá la lámpara mágica "
+"ondulada."
 
 #: ../plugins/animation/animation.xml.in.h:82
 msgid "Max Wave Amplitude"
-msgstr ""
+msgstr "Amplitud de onda máxima"
 
 #: ../plugins/animation/animation.xml.in.h:83
 msgid ""
 "The maximum wave amplitude (size of the waves) Magic Lamp Wavy will have."
 msgstr ""
+"Máxima amplitud de onda (tamaño de las ondas) que tendrá la lámpara mágica "
+"ondulada."
 
 #: ../plugins/animation/animation.xml.in.h:84
 msgid ""
 "Starting width of open effect and ending width of close effect for Magic "
 "Lamp Wavy."
 msgstr ""
+"Ancho inicial del efecto de abrir y ancho final del efecto de cerrar para la "
+"lámpara mágica ondulada."
 
 #: ../plugins/animation/animation.xml.in.h:85
 msgid "Roll Up"
