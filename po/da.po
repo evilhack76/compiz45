@@ -3,20 +3,20 @@
 # Copyright (C) 2002 SuSE Linux AG.
 # Copyright (C) 2001 SuSE GmbH.
 # H. Merethe Eriksen <djinni@mail1.stofanet.dk>, 2001.
-# scootergrisen 2017.
+# scootergrisen 2017-2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: YaST (@memory@)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 16:05+0300\n"
-"PO-Revision-Date: 2019-02-21 23:18+0000\n"
+"PO-Revision-Date: 2020-08-04 15:08+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-02-23 07:59+0000\n"
-"X-Generator: Launchpad (build 18886)\n"
+"X-Launchpad-Export-Date: 2022-08-20 07:02+0000\n"
+"X-Generator: Launchpad (build a7ed8521180d7bb33e1a127e53ad65268d6ca88f)\n"
 "Language: da\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../gtk/window-decorator/events.c:334
 msgid "Stick"
-msgstr ""
+msgstr "Fastgør"
 
 #: ../gtk/window-decorator/events.c:356
 msgid "Unshade"
@@ -66,12 +66,12 @@ msgstr ""
 
 #: ../gtk/window-decorator/events.c:400
 msgid "Unstick"
-msgstr ""
+msgstr "Frigør"
 
 #: ../gtk/window-decorator/forcequit.c:143
 #, c-format
 msgid "The window \"%s\" is not responding."
-msgstr ""
+msgstr "Vinduet \"%s\" svarer ikke."
 
 #: ../gtk/window-decorator/forcequit.c:147
 msgid ""
@@ -140,23 +140,23 @@ msgstr "Flyt vindue til arbejdsområde 12"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
 msgid "Move window one workspace to the left"
-msgstr ""
+msgstr "Flyt vindue et arbejdsområde til venstre"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
 msgid "Move window one workspace to the right"
-msgstr ""
+msgstr "Flyt vindue et arbejdsområde til højre"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
 msgid "Move window one workspace up"
-msgstr ""
+msgstr "Flyt vindue et arbejdsområde op"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
 msgid "Move window one workspace down"
-msgstr ""
+msgstr "Flyt vindue et arbejdsområde ned"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
 msgid "Switch applications"
-msgstr ""
+msgstr "Skift mellem programmer"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:19
 msgid "Switch windows of an app directly"
@@ -164,7 +164,7 @@ msgstr ""
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
 msgid "Hide all normal windows"
-msgstr ""
+msgstr "Skjul alle normale vinduer"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:21
 msgid "Switch to workspace 1"
@@ -216,33 +216,33 @@ msgstr "Skift til arbejdsområde 12"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
 msgid "Switch to workspace left"
-msgstr ""
+msgstr "Skift til arbejdsområdet til venstre"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:34
 msgid "Switch to workspace right"
-msgstr ""
+msgstr "Skift til arbejdsområdet til højre"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:35
 msgid "Switch to workspace above"
-msgstr ""
+msgstr "Skift til arbejdsområdet ovenover"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:36
 msgid "Switch to workspace below"
-msgstr ""
+msgstr "Skift til arbejdsområdet nedenunder"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:1 ../plugins/obs/obs.xml.in.h:17
 #: ../plugins/place/place.xml.in.h:32
 #: ../plugins/stackswitch/stackswitch.xml.in.h:24
 msgid "Windows"
-msgstr ""
+msgstr "Vinduer"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:2
 msgid "Activate the window menu"
-msgstr ""
+msgstr "Aktivér vinduesmenuen"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:3
 msgid "Toggle fullscreen mode"
-msgstr ""
+msgstr "Fuldskærmstilstand til/fra"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:4
 msgid "Toggle maximization state"
@@ -250,11 +250,11 @@ msgstr ""
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:5
 msgid "Maximize window"
-msgstr ""
+msgstr "Maksimér vindue"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:6
 msgid "Restore window"
-msgstr ""
+msgstr "Gendan vindue"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:7
 msgid "Toggle shaded state"
@@ -262,11 +262,11 @@ msgstr ""
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:8
 msgid "Close window"
-msgstr ""
+msgstr "Luk vindue"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:9
 msgid "Minimize window"
-msgstr ""
+msgstr "Minimér vindue"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:10
 msgid "Move window"
@@ -280,7 +280,7 @@ msgstr "Tilpas størrelsen på vinduet"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:12 ../metadata/core.xml.in.h:53
 msgid "Raise window above other windows"
-msgstr "Hæv vinduet over de andre vinduer"
+msgstr "Løft vinduet over de andre vinduer"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:13
 msgid "Lower window below other windows"
@@ -288,11 +288,11 @@ msgstr "Sænk vinduet under de andre vinduer"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:14
 msgid "Maximize window vertically"
-msgstr ""
+msgstr "Maksimér vindue lodret"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:15
 msgid "Maximize window horizontally"
-msgstr ""
+msgstr "Maksimér vindue vandret"
 
 #: ../metadata/core.xml.in.h:1 ../plugins/ring/ring.xml.in.h:23
 #: ../plugins/shift/shift.xml.in.h:34
@@ -418,7 +418,7 @@ msgstr "Liste over strenge, der beskriver outputenheder"
 
 #: ../metadata/core.xml.in.h:29
 msgid "Focus &amp; Raise Behaviour"
-msgstr "Opførsel af fokus og forhøjelse"
+msgstr "Opførsel for fokus og løft"
 
 #: ../metadata/core.xml.in.h:30
 msgid "Click To Focus"
@@ -430,23 +430,23 @@ msgstr "Fokus flyttes til vinduet, når der klikkes på det"
 
 #: ../metadata/core.xml.in.h:32
 msgid "Raise On Click"
-msgstr "Hæv ved klik"
+msgstr "Løft ved klik"
 
 #: ../metadata/core.xml.in.h:33
 msgid "Raise windows when clicked"
-msgstr "Hæv vinduer, når der klikkes på det"
+msgstr "Løft vinduer, når der klikkes på det"
 
 #: ../metadata/core.xml.in.h:34
 msgid "Auto-Raise"
-msgstr "Automatisk hævning"
+msgstr "Automatisk løft"
 
 #: ../metadata/core.xml.in.h:35
 msgid "Raise selected windows after interval"
-msgstr "Hæv de valgte vinduer efter interval"
+msgstr "Løft de valgte vinduer efter interval"
 
 #: ../metadata/core.xml.in.h:36
 msgid "Auto-Raise Delay"
-msgstr "Forsinkelse for automatisk hævning"
+msgstr "Forsinkelse for automatisk løft"
 
 #: ../metadata/core.xml.in.h:37
 msgid "Interval before raising selected windows"
@@ -501,16 +501,15 @@ msgstr ""
 #: ../metadata/core.xml.in.h:49 ../plugins/group/group.xml.in.h:4
 #: ../plugins/stackswitch/stackswitch.xml.in.h:2
 msgid "Key bindings"
-msgstr ""
+msgstr "Tastebindinger"
 
 #: ../metadata/core.xml.in.h:51
 msgid "Close active window"
 msgstr "Luk det aktive vindue"
 
-#
 #: ../metadata/core.xml.in.h:52
 msgid "Raise Window"
-msgstr "Hæv vindue"
+msgstr "Løft vindue"
 
 #
 #: ../metadata/core.xml.in.h:54
@@ -519,7 +518,7 @@ msgstr "Sænk vindue"
 
 #: ../metadata/core.xml.in.h:55
 msgid "Lower window beneath other windows"
-msgstr "Placer vinduet under de andre vinduer"
+msgstr "Sænk vinduet under de andre vinduer"
 
 #: ../metadata/core.xml.in.h:57
 msgid "Minimize active window"
@@ -567,7 +566,7 @@ msgstr ""
 
 #: ../metadata/core.xml.in.h:71 ../plugins/showdesktop/showdesktop.xml.in.h:1
 msgid "Show Desktop"
-msgstr ""
+msgstr "Vis skrivebord"
 
 #: ../metadata/core.xml.in.h:72
 msgid "Hide all windows and focus desktop"
@@ -627,7 +626,7 @@ msgstr ""
 
 #: ../plugins/addhelper/addhelper.xml.in.h:1
 msgid "Dim Inactive"
-msgstr ""
+msgstr "Nedton inaktive"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:2
 msgid ""
@@ -648,7 +647,7 @@ msgstr ""
 #: ../plugins/switcher/switcher.xml.in.h:2 ../plugins/trip/trip.xml.in.h:3
 #: ../plugins/wall/wall.xml.in.h:44
 msgid "Bindings"
-msgstr ""
+msgstr "Bindinger"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:4
 msgid "Toggle AddHelper"
@@ -662,7 +661,7 @@ msgstr ""
 #: ../plugins/opacify/opacify.xml.in.h:6 ../plugins/put/put.xml.in.h:69
 #: ../plugins/td/td.xml.in.h:3
 msgid "Misc. Options"
-msgstr ""
+msgstr "Diverse valgmuligheder"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:7
 #: ../plugins/showdesktop/showdesktop.xml.in.h:23
@@ -717,7 +716,7 @@ msgstr ""
 #: ../plugins/switcher/switcher.xml.in.h:33
 #: ../plugins/trailfocus/trailfocus.xml.in.h:11
 msgid "Opacity"
-msgstr "Uigennemsigtighed"
+msgstr "Opacitet"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:16
 msgid "Opacity of faded windows"
@@ -725,7 +724,7 @@ msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:1
 msgid "Animations"
-msgstr ""
+msgstr "Animationer"
 
 #: ../plugins/animation/animation.xml.in.h:2
 msgid "Use various animations as window effects"
@@ -1221,7 +1220,7 @@ msgstr ""
 
 #: ../plugins/animationaddon/animationaddon.xml.in.h:1
 msgid "Animations Add-On"
-msgstr ""
+msgstr "Animationer-tilføjelser"
 
 #: ../plugins/animationaddon/animationaddon.xml.in.h:2
 msgid "Extra window animations and animation engines"
@@ -1625,7 +1624,7 @@ msgstr ""
 
 #: ../plugins/animationjc/animationjc.xml.in.h:1
 msgid "Animations Experimental"
-msgstr ""
+msgstr "Animationer-eksperimental"
 
 #: ../plugins/animationjc/animationjc.xml.in.h:2
 msgid "Extra window animations"
@@ -1655,7 +1654,7 @@ msgstr ""
 #: ../plugins/animationjc/animationjc.xml.in.h:9
 #: ../plugins/grid/grid.xml.in.h:1
 msgid "Grid"
-msgstr ""
+msgstr "Gitter"
 
 #: ../plugins/animationjc/animationjc.xml.in.h:11
 msgid "Wave Speed"
@@ -1683,7 +1682,7 @@ msgstr ""
 
 #: ../plugins/animationplus/animationplus.xml.in.h:1
 msgid "Animations Plus"
-msgstr ""
+msgstr "Animationer-plus"
 
 #: ../plugins/animationplus/animationplus.xml.in.h:2
 msgid "More window animations"
@@ -1780,11 +1779,11 @@ msgstr ""
 
 #: ../plugins/annotate/annotate.xml.in.h:1
 msgid "Annotate"
-msgstr ""
+msgstr "Tegning"
 
 #: ../plugins/annotate/annotate.xml.in.h:2
 msgid "Annotate plugin"
-msgstr ""
+msgstr "Tegning-plugin"
 
 #: ../plugins/annotate/annotate.xml.in.h:3
 msgid "Initiate Free Draw"
@@ -1880,7 +1879,7 @@ msgstr ""
 
 #: ../plugins/bench/bench.xml.in.h:1
 msgid "Benchmark"
-msgstr ""
+msgstr "Benchmark"
 
 #: ../plugins/bench/bench.xml.in.h:2
 msgid "A simple benchmark plugin"
@@ -1970,7 +1969,7 @@ msgstr ""
 
 #: ../plugins/bicubic/bicubic.xml.in.h:1
 msgid "Bicubic filter"
-msgstr ""
+msgstr "Bikubisk filter"
 
 #: ../plugins/bicubic/bicubic.xml.in.h:2
 msgid "Bicubic texture filtering"
@@ -1978,7 +1977,7 @@ msgstr ""
 
 #: ../plugins/blur/blur.xml.in.h:1
 msgid "Blur Windows"
-msgstr ""
+msgstr "Slør vinduer"
 
 #: ../plugins/blur/blur.xml.in.h:2
 msgid "Blur windows"
@@ -2108,7 +2107,7 @@ msgstr ""
 
 #: ../plugins/clone/clone.xml.in.h:1
 msgid "Clone Output"
-msgstr ""
+msgstr "Klon output"
 
 #: ../plugins/clone/clone.xml.in.h:2
 msgid "Output clone handler"
@@ -2120,7 +2119,7 @@ msgstr ""
 
 #: ../plugins/colorfilter/colorfilter.xml.in.h:1
 msgid "Color filter"
-msgstr ""
+msgstr "Farvefilter"
 
 #: ../plugins/colorfilter/colorfilter.xml.in.h:2
 msgid "Filter colors for accessibility purposes"
@@ -2969,7 +2968,7 @@ msgstr ""
 
 #: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:1
 msgid "Compiz Library Toolbox"
-msgstr ""
+msgstr "Værktøjsboks for Compiz-bibliotek"
 
 #: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:2
 msgid "Commonly used routines by plugins separated into a separate library"
@@ -2977,11 +2976,11 @@ msgstr ""
 
 #: ../plugins/composite/composite.xml.in.h:1
 msgid "Composite"
-msgstr ""
+msgstr "Sammensætning"
 
 #: ../plugins/composite/composite.xml.in.h:2
 msgid "Composite plugin"
-msgstr ""
+msgstr "Sammensætning-plugin"
 
 #: ../plugins/composite/composite.xml.in.h:3
 msgid "Slow Animations"
@@ -3041,7 +3040,7 @@ msgstr ""
 
 #: ../plugins/copytex/copytex.xml.in.h:1
 msgid "Copy to texture"
-msgstr ""
+msgstr "Kopiér til struktur"
 
 #: ../plugins/copytex/copytex.xml.in.h:2
 msgid "Copy pixmap content to texture"
@@ -3049,7 +3048,7 @@ msgstr ""
 
 #: ../plugins/crashhandler/crashhandler.xml.in.h:1
 msgid "Crash handler"
-msgstr ""
+msgstr "Nedbrudshåndtering"
 
 #: ../plugins/crashhandler/crashhandler.xml.in.h:2
 msgid "Compiz crash handler plugin"
@@ -3089,7 +3088,7 @@ msgstr ""
 
 #: ../plugins/cube/cube.xml.in.h:1
 msgid "Desktop Cube"
-msgstr "Skrivebordsterning"
+msgstr "Skrivebordskube"
 
 #: ../plugins/cube/cube.xml.in.h:2
 msgid "Place windows and viewports on a cube"
@@ -3139,7 +3138,7 @@ msgstr ""
 
 #: ../plugins/cube/cube.xml.in.h:13
 msgid "Inside Cube"
-msgstr "Inden i terning"
+msgstr "Inden i kube"
 
 #: ../plugins/cube/cube.xml.in.h:14
 msgid "Place the camera inside the cube."
@@ -3189,7 +3188,7 @@ msgstr ""
 #: ../plugins/widget/widget.xml.in.h:10
 #: ../plugins/workspacenames/workspacenames.xml.in.h:9
 msgid "Appearance"
-msgstr ""
+msgstr "Udseende"
 
 #: ../plugins/cube/cube.xml.in.h:22
 msgid "Cube Cap Colors"
@@ -3285,7 +3284,7 @@ msgstr ""
 
 #: ../plugins/cubeaddon/cubeaddon.xml.in.h:1
 msgid "Cube Reflection and Deformation"
-msgstr ""
+msgstr "Kubereflektion og -deformation"
 
 #: ../plugins/cubeaddon/cubeaddon.xml.in.h:2
 msgid ""
@@ -3595,7 +3594,7 @@ msgstr ""
 
 #: ../plugins/dbus/dbus.xml.in.h:1
 msgid "D-Bus"
-msgstr ""
+msgstr "D-Bus"
 
 #: ../plugins/dbus/dbus.xml.in.h:2
 msgid "D-Bus Control Backend"
@@ -3623,11 +3622,11 @@ msgstr "Slagskyggens radius"
 
 #: ../plugins/decor/decor.xml.in.h:6
 msgid "Shadow Opacity"
-msgstr "Skyggens uigennemsigtighed"
+msgstr "Skyggens opacitet"
 
 #: ../plugins/decor/decor.xml.in.h:7
 msgid "Drop shadow opacity"
-msgstr "Slagskyggens uigennemsigtighed"
+msgstr "Slagskyggens opacitet"
 
 #: ../plugins/decor/decor.xml.in.h:8 ../plugins/wall/wall.xml.in.h:24
 msgid "Shadow Color"
@@ -3688,7 +3687,7 @@ msgstr ""
 
 #: ../plugins/expo/expo.xml.in.h:1
 msgid "Expo"
-msgstr ""
+msgstr "Eksponer"
 
 #: ../plugins/expo/expo.xml.in.h:2
 msgid "Expose all viewports and freely arrange open windows amongst them"
@@ -3927,7 +3926,7 @@ msgstr ""
 
 #: ../plugins/extrawm/extrawm.xml.in.h:1
 msgid "Extra WM Actions"
-msgstr ""
+msgstr "Ekstra VH-handlinger"
 
 #: ../plugins/extrawm/extrawm.xml.in.h:2
 msgid "Provides less commonly used WM actions"
@@ -3983,7 +3982,7 @@ msgstr ""
 
 #: ../plugins/ezoom/ezoom.xml.in.h:1
 msgid "Enhanced Zoom Desktop"
-msgstr ""
+msgstr "Forbedret zoom skrivebord"
 
 #: ../plugins/ezoom/ezoom.xml.in.h:2
 msgid "Enhanced zoom functions for the visually impaired and other users"
@@ -4586,7 +4585,7 @@ msgstr ""
 
 #: ../plugins/fade/fade.xml.in.h:1
 msgid "Fading Windows"
-msgstr "Fading af vinduer"
+msgstr "Ind-/udtonende vinduer"
 
 #: ../plugins/fade/fade.xml.in.h:2
 msgid "Fade in windows when mapped and fade out windows when unmapped"
@@ -4682,7 +4681,7 @@ msgstr ""
 
 #: ../plugins/fadedesktop/fadedesktop.xml.in.h:1
 msgid "Fade to Desktop"
-msgstr ""
+msgstr "Udton til skrivebord"
 
 #: ../plugins/fadedesktop/fadedesktop.xml.in.h:2
 msgid "Easily access your desktop"
@@ -4698,7 +4697,7 @@ msgstr ""
 
 #: ../plugins/firepaint/firepaint.xml.in.h:1
 msgid "Firepaint"
-msgstr ""
+msgstr "Ildmaling"
 
 #: ../plugins/firepaint/firepaint.xml.in.h:2
 msgid "Paint fire particles with a specific or random color onto the screen"
@@ -4710,7 +4709,7 @@ msgstr ""
 #: ../plugins/thumbnail/thumbnail.xml.in.h:3 ../plugins/trip/trip.xml.in.h:12
 #: ../plugins/wizard/wizard.xml.in.h:3
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 #: ../plugins/firepaint/firepaint.xml.in.h:4 ../plugins/shift/shift.xml.in.h:4
 msgid "Initiate Key"
@@ -4791,7 +4790,7 @@ msgstr ""
 
 #: ../plugins/freewins/freewins.xml.in.h:1
 msgid "Freely Transformable Windows"
-msgstr ""
+msgstr "Frit transformerbare vinduer"
 
 #: ../plugins/freewins/freewins.xml.in.h:2
 msgid "Freely transform windows"
@@ -5101,7 +5100,7 @@ msgstr ""
 #: ../plugins/freewins/freewins.xml.in.h:76
 #: ../plugins/mousepoll/mousepoll.xml.in.h:3
 msgid "Misc"
-msgstr ""
+msgstr "Diverse"
 
 #: ../plugins/freewins/freewins.xml.in.h:77
 msgid "Input Prevention"
@@ -5191,7 +5190,7 @@ msgstr ""
 
 #: ../plugins/gears/gears.xml.in.h:1
 msgid "Cube Gears"
-msgstr ""
+msgstr "Kubetandhjul"
 
 #: ../plugins/gears/gears.xml.in.h:2
 msgid "Render gears inside of the transparent cube"
@@ -5199,7 +5198,7 @@ msgstr ""
 
 #: ../plugins/gnomecompat/gnomecompat.xml.in.h:1
 msgid "Gnome Compatibility"
-msgstr ""
+msgstr "Gnome-kompatibilitet"
 
 #: ../plugins/gnomecompat/gnomecompat.xml.in.h:2
 msgid "Options that keep Compiz compatible to the Gnome desktop environment"
@@ -5528,7 +5527,7 @@ msgstr ""
 
 #: ../plugins/grid/grid.xml.in.h:67
 msgid "General Size"
-msgstr ""
+msgstr "Generel størrelse"
 
 #: ../plugins/grid/grid.xml.in.h:68
 msgid "The pixels to drag until a grid-resized window snaps off."
@@ -5592,7 +5591,7 @@ msgstr ""
 
 #: ../plugins/group/group.xml.in.h:1
 msgid "Group and Tab Windows"
-msgstr ""
+msgstr "Gruppér og faneblad vinduer"
 
 #: ../plugins/group/group.xml.in.h:2
 msgid "With this plugin you can group and tab windows"
@@ -5727,13 +5726,15 @@ msgstr ""
 
 #: ../plugins/group/group.xml.in.h:35
 msgid "Raise every window in the group"
-msgstr ""
+msgstr "Løft alle vinduer i gruppen"
 
 #: ../plugins/group/group.xml.in.h:36
 msgid ""
 "If one window in the group is activated, all other group windows are raised "
 "as well."
 msgstr ""
+"Hvis et vindue i en gruppe er aktiveret, vil alle andre vinduer i gruppen "
+"også blive løftet."
 
 #: ../plugins/group/group.xml.in.h:37
 msgid "Maximize/unmaximize with group"
@@ -6150,7 +6151,7 @@ msgstr ""
 
 #: ../plugins/imgjpeg/imgjpeg.xml.in.h:1
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 #: ../plugins/imgjpeg/imgjpeg.xml.in.h:2
 msgid "JPEG image format plugin"
@@ -6190,7 +6191,7 @@ msgstr ""
 
 #: ../plugins/inotify/inotify.xml.in.h:1
 msgid "File Watcher"
-msgstr ""
+msgstr "Filovervåger"
 
 #: ../plugins/inotify/inotify.xml.in.h:2
 msgid "File change notification plugin"
@@ -6198,7 +6199,7 @@ msgstr ""
 
 #: ../plugins/loginout/loginout.xml.in.h:1
 msgid "Login/Logout"
-msgstr ""
+msgstr "Log ind/log ud"
 
 #: ../plugins/loginout/loginout.xml.in.h:2
 msgid "Login/Logout effect"
@@ -6250,7 +6251,7 @@ msgstr ""
 
 #: ../plugins/mag/mag.xml.in.h:1
 msgid "Magnifier"
-msgstr ""
+msgstr "Forstørrelsesglas"
 
 #: ../plugins/mag/mag.xml.in.h:2
 msgid "Magnifier box"
@@ -6359,7 +6360,7 @@ msgstr ""
 
 #: ../plugins/matecompat/matecompat.xml.in.h:1
 msgid "MATE Compatibility"
-msgstr ""
+msgstr "MATE-kompatibilitet"
 
 #: ../plugins/matecompat/matecompat.xml.in.h:2
 msgid "Options that keep Compiz compatible with the MATE desktop environment"
@@ -6367,7 +6368,7 @@ msgstr ""
 
 #: ../plugins/maximumize/maximumize.xml.in.h:1
 msgid "Maximumize"
-msgstr ""
+msgstr "Maksimumiser"
 
 #: ../plugins/maximumize/maximumize.xml.in.h:2
 msgid "Maximumizes windows (resize them to fit the available screenspace)."
@@ -6620,7 +6621,7 @@ msgstr ""
 
 #: ../plugins/mblur/mblur.xml.in.h:1
 msgid "Motion blur"
-msgstr ""
+msgstr "Bevægelsessløring"
 
 #: ../plugins/mblur/mblur.xml.in.h:2
 msgid "Motion blur effect"
@@ -6676,7 +6677,7 @@ msgstr ""
 
 #: ../plugins/mousepoll/mousepoll.xml.in.h:1
 msgid "Mouse position polling"
-msgstr ""
+msgstr "Indhentning af museplacering"
 
 #: ../plugins/mousepoll/mousepoll.xml.in.h:2
 msgid "Updates the mouse pointer position from the xserver"
@@ -6839,7 +6840,7 @@ msgstr ""
 
 #: ../plugins/neg/neg.xml.in.h:1
 msgid "Negative"
-msgstr ""
+msgstr "Negativ"
 
 #: ../plugins/neg/neg.xml.in.h:2
 msgid "Used to set a window or screen negative"
@@ -6895,7 +6896,7 @@ msgstr ""
 
 #: ../plugins/notification/notification.xml.in.h:1
 msgid "Notification"
-msgstr "Besked"
+msgstr "Underretning"
 
 #: ../plugins/notification/notification.xml.in.h:2
 msgid "Use libnotify to graphically display error messages"
@@ -6941,7 +6942,7 @@ msgstr ""
 
 #: ../plugins/obs/obs.xml.in.h:1
 msgid "Opacity, Brightness and Saturation"
-msgstr ""
+msgstr "Opacitet, lysstyrke og farvemætning"
 
 #: ../plugins/obs/obs.xml.in.h:2
 msgid "Per window adjustments of opacity, brightness and saturation"
@@ -7117,7 +7118,7 @@ msgstr ""
 
 #: ../plugins/opacify/opacify.xml.in.h:1
 msgid "Opacify"
-msgstr ""
+msgstr "Opacitet"
 
 #: ../plugins/opacify/opacify.xml.in.h:2
 msgid "Make windows easily visible by hovering the mouse over them"
@@ -7229,7 +7230,7 @@ msgstr ""
 
 #: ../plugins/opengl/opengl.xml.in.h:1
 msgid "OpenGL"
-msgstr ""
+msgstr "OpenGL"
 
 #: ../plugins/opengl/opengl.xml.in.h:2
 msgid "OpenGL Plugin"
@@ -7519,7 +7520,7 @@ msgstr ""
 
 #: ../plugins/put/put.xml.in.h:1
 msgid "Put"
-msgstr ""
+msgstr "Sæt"
 
 #: ../plugins/put/put.xml.in.h:2
 msgid "Put window"
@@ -7912,7 +7913,7 @@ msgstr ""
 
 #: ../plugins/regex/regex.xml.in.h:1
 msgid "Regex Matching"
-msgstr ""
+msgstr "Match af regulære udtryk"
 
 #: ../plugins/regex/regex.xml.in.h:2
 msgid "Regex window matching"
@@ -8025,7 +8026,7 @@ msgstr ""
 
 #: ../plugins/resizeinfo/resizeinfo.xml.in.h:1
 msgid "Resize Info"
-msgstr ""
+msgstr "Info om tilpasning af størrelse"
 
 #: ../plugins/resizeinfo/resizeinfo.xml.in.h:2
 msgid "Display info on resize similar to metacity"
@@ -8106,7 +8107,7 @@ msgstr ""
 
 #: ../plugins/ring/ring.xml.in.h:1
 msgid "Ring Switcher"
-msgstr ""
+msgstr "Ringskifter"
 
 #: ../plugins/ring/ring.xml.in.h:2
 msgid ""
@@ -8421,11 +8422,11 @@ msgstr ""
 
 #: ../plugins/rotate/rotate.xml.in.h:1
 msgid "Rotate Cube"
-msgstr "Roter terning"
+msgstr "Roter kube"
 
 #: ../plugins/rotate/rotate.xml.in.h:2
 msgid "Rotate desktop cube"
-msgstr "Roter skrivebordsterning"
+msgstr "Roter skrivebordskube"
 
 #: ../plugins/rotate/rotate.xml.in.h:3 ../plugins/wall/wall.xml.in.h:81
 msgid "Edge Flip Pointer"
@@ -8455,11 +8456,11 @@ msgstr ""
 
 #: ../plugins/rotate/rotate.xml.in.h:9
 msgid "Raise on rotate"
-msgstr ""
+msgstr "Løft ved roter"
 
 #: ../plugins/rotate/rotate.xml.in.h:10
 msgid "Raise window when rotating"
-msgstr ""
+msgstr "Løft vindue når det roteres"
 
 #: ../plugins/rotate/rotate.xml.in.h:11
 msgid "Pointer Invert Y"
@@ -8475,7 +8476,7 @@ msgstr "Fastgør til oversiden"
 
 #: ../plugins/rotate/rotate.xml.in.h:14
 msgid "Snap Cube Rotation to Top Face"
-msgstr "Fastgør terningens rotation til oversiden"
+msgstr "Fastgør kubens rotation til oversiden"
 
 #: ../plugins/rotate/rotate.xml.in.h:15
 msgid "Snap To Bottom Face"
@@ -8527,7 +8528,7 @@ msgstr "Tidstrin for rotation"
 
 #: ../plugins/rotate/rotate.xml.in.h:31
 msgid "Rotate cube"
-msgstr "Roter terning"
+msgstr "Roter kube"
 
 #
 #: ../plugins/rotate/rotate.xml.in.h:33
@@ -8838,7 +8839,7 @@ msgstr "Gør baggrunden mørkere, når vinduer skaleres"
 #: ../plugins/staticswitcher/staticswitcher.xml.in.h:44
 #: ../plugins/switcher/switcher.xml.in.h:34
 msgid "Amount of opacity in percent"
-msgstr "Mængden af uigennemsigtighed i procent"
+msgstr "Mængden af opacitet i procent"
 
 #: ../plugins/scale/scale.xml.in.h:21
 msgid "Overlay an icon on windows once they are scaled"
@@ -8977,7 +8978,7 @@ msgstr ""
 
 #: ../plugins/scaleaddon/scaleaddon.xml.in.h:1
 msgid "Scale Addons"
-msgstr ""
+msgstr "Skaler-tilføjelser"
 
 #: ../plugins/scaleaddon/scaleaddon.xml.in.h:2
 msgid "Some useful additions to the scale plugin"
@@ -9124,7 +9125,7 @@ msgstr ""
 
 #: ../plugins/scalefilter/scalefilter.xml.in.h:1
 msgid "Scale Window Title Filter"
-msgstr ""
+msgstr "Filter til skalering af vinduestitel"
 
 #: ../plugins/scalefilter/scalefilter.xml.in.h:2
 msgid "Window title filter facility for the scale plugin"
@@ -9156,7 +9157,7 @@ msgstr ""
 
 #: ../plugins/screenshot/screenshot.xml.in.h:1
 msgid "Screenshot"
-msgstr ""
+msgstr "Skærmbillede"
 
 #: ../plugins/screenshot/screenshot.xml.in.h:2
 msgid "Easily capture parts of your screen and save them as .png image"
@@ -9210,7 +9211,7 @@ msgstr ""
 
 #: ../plugins/session/session.xml.in.h:1
 msgid "Session Management"
-msgstr ""
+msgstr "Sessionsstyring"
 
 #: ../plugins/session/session.xml.in.h:2
 msgid "Talk to session manager and save/load window state"
@@ -9237,7 +9238,7 @@ msgstr ""
 
 #: ../plugins/shelf/shelf.xml.in.h:1
 msgid "Shelf"
-msgstr ""
+msgstr "Hylde"
 
 #: ../plugins/shelf/shelf.xml.in.h:2
 msgid ""
@@ -9308,7 +9309,7 @@ msgstr ""
 
 #: ../plugins/shift/shift.xml.in.h:1
 msgid "Shift Switcher"
-msgstr ""
+msgstr "Skiftskifter"
 
 #: ../plugins/shift/shift.xml.in.h:2
 msgid "Shift between open windows using a cover or flip mode"
@@ -9633,7 +9634,7 @@ msgstr ""
 
 #: ../plugins/showmouse/showmouse.xml.in.h:1
 msgid "Show mouse"
-msgstr ""
+msgstr "Vis mus"
 
 #: ../plugins/showmouse/showmouse.xml.in.h:2
 msgid "Increases the visibility of the mouse pointer"
@@ -9767,7 +9768,7 @@ msgstr ""
 
 #: ../plugins/showrepaint/showrepaint.xml.in.h:1
 msgid "Show Repaint"
-msgstr ""
+msgstr "Vis gentegning"
 
 #: ../plugins/showrepaint/showrepaint.xml.in.h:2
 msgid "Show repainted regions in different colors"
@@ -9788,7 +9789,7 @@ msgstr ""
 
 #: ../plugins/simple-animations/animationsim.xml.in.h:1
 msgid "Simple Animations"
-msgstr ""
+msgstr "Simple animationer"
 
 #: ../plugins/simple-animations/animationsim.xml.in.h:2
 msgid "Animations that are simple on the eye"
@@ -9944,7 +9945,7 @@ msgstr ""
 
 #: ../plugins/snap/snap.xml.in.h:1
 msgid "Snapping Windows"
-msgstr ""
+msgstr "Fastgørende vinduer"
 
 #: ../plugins/snap/snap.xml.in.h:2
 msgid "Enables windows edges resistance"
@@ -10008,7 +10009,7 @@ msgstr ""
 
 #: ../plugins/splash/splash.xml.in.h:1
 msgid "Splash"
-msgstr "Splash"
+msgstr "Opstartsbillede"
 
 #: ../plugins/splash/splash.xml.in.h:2
 msgid "A simple splash plugin"
@@ -10069,7 +10070,7 @@ msgstr ""
 
 #: ../plugins/stackswitch/stackswitch.xml.in.h:1
 msgid "Stack Window Switcher"
-msgstr ""
+msgstr "Stak vinduesskifter"
 
 #: ../plugins/stackswitch/stackswitch.xml.in.h:3
 msgid "Next Window"
@@ -10190,7 +10191,7 @@ msgstr ""
 
 #: ../plugins/staticswitcher/staticswitcher.xml.in.h:1
 msgid "Static Application Switcher"
-msgstr ""
+msgstr "Statisk programskifter"
 
 #: ../plugins/staticswitcher/staticswitcher.xml.in.h:3
 #: ../plugins/switcher/switcher.xml.in.h:3
@@ -10515,7 +10516,7 @@ msgstr ""
 
 #: ../plugins/td/td.xml.in.h:1
 msgid "3D Windows"
-msgstr ""
+msgstr "3D-vinduer"
 
 #: ../plugins/td/td.xml.in.h:2
 msgid "Elevates windows while rotating the cube"
@@ -10554,11 +10555,11 @@ msgstr ""
 
 #: ../plugins/td/td.xml.in.h:12
 msgid "Window Depth"
-msgstr ""
+msgstr "Vinduesdybde"
 
 #: ../plugins/td/td.xml.in.h:13
 msgid "Window depth"
-msgstr ""
+msgstr "Vinduesdybde"
 
 #: ../plugins/td/td.xml.in.h:14
 msgid "Bevel Corners"
@@ -10618,7 +10619,7 @@ msgstr ""
 
 #: ../plugins/text/text.xml.in.h:1
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: ../plugins/text/text.xml.in.h:2
 msgid "Render text to texture"
@@ -10626,7 +10627,7 @@ msgstr ""
 
 #: ../plugins/thumbnail/thumbnail.xml.in.h:1
 msgid "Thumbnail Window Previews"
-msgstr ""
+msgstr "Forhåndvisning af miniaturevinduer"
 
 #: ../plugins/thumbnail/thumbnail.xml.in.h:2
 msgid "Live window thumbnails at the dock, launcher or taskbar"
@@ -10754,7 +10755,7 @@ msgstr ""
 
 #: ../plugins/titleinfo/titleinfo.xml.in.h:1
 msgid "Title Bar Info"
-msgstr ""
+msgstr "Information om titellinje"
 
 #: ../plugins/titleinfo/titleinfo.xml.in.h:2
 msgid "Shows additional information in the window title bar"
@@ -10779,7 +10780,7 @@ msgstr ""
 
 #: ../plugins/trailfocus/trailfocus.xml.in.h:1
 msgid "Trailfocus"
-msgstr ""
+msgstr "Sporfokus"
 
 #: ../plugins/trailfocus/trailfocus.xml.in.h:2
 msgid ""
@@ -10873,7 +10874,7 @@ msgstr ""
 
 #: ../plugins/trip/trip.xml.in.h:1
 msgid "Trip"
-msgstr ""
+msgstr "Trip"
 
 #: ../plugins/trip/trip.xml.in.h:2
 msgid "Trips out desktops"
@@ -10929,7 +10930,7 @@ msgstr ""
 
 #: ../plugins/vpswitch/vpswitch.xml.in.h:1
 msgid "Viewport Switcher"
-msgstr ""
+msgstr "Visningsområdeskrifter"
 
 #: ../plugins/vpswitch/vpswitch.xml.in.h:2
 msgid "Initiate viewport changes through several events"
@@ -11125,7 +11126,7 @@ msgstr ""
 
 #: ../plugins/wall/wall.xml.in.h:1
 msgid "Desktop Wall"
-msgstr ""
+msgstr "Skrivebordsvæg"
 
 #: ../plugins/wall/wall.xml.in.h:2
 msgid "Desktop Wall Plugin"
@@ -11414,7 +11415,7 @@ msgstr ""
 
 #: ../plugins/wallpaper/wallpaper.xml.in.h:1
 msgid "Wallpaper"
-msgstr ""
+msgstr "Tapet"
 
 #: ../plugins/wallpaper/wallpaper.xml.in.h:2
 msgid ""
@@ -11616,7 +11617,7 @@ msgstr "Tilføj linje"
 
 #: ../plugins/widget/widget.xml.in.h:1
 msgid "Widget Layer"
-msgstr ""
+msgstr "Kontrollag"
 
 #: ../plugins/widget/widget.xml.in.h:2
 msgid "Show widget windows on a separate layer"
@@ -11668,7 +11669,7 @@ msgstr ""
 
 #: ../plugins/winrules/winrules.xml.in.h:1
 msgid "Window Rules"
-msgstr ""
+msgstr "Vinduesregler"
 
 #: ../plugins/winrules/winrules.xml.in.h:2
 msgid "Set windows rules"
@@ -11808,12 +11809,14 @@ msgstr ""
 
 #: ../plugins/wizard/wizard.xml.in.h:1
 msgid "Wizard"
-msgstr ""
+msgstr "Trylleri"
 
 #: ../plugins/wizard/wizard.xml.in.h:2
 msgid ""
 "Wastes resources to create fancy particle systems for wizard-wannabes :)"
 msgstr ""
+"Spilder ressourcer på at skabe smarte partikelsystemer for dem der gerne vil "
+"kunne trylle :)"
 
 #: ../plugins/wizard/wizard.xml.in.h:5
 msgid "Toggle all particle effects."
@@ -12533,7 +12536,7 @@ msgstr ""
 
 #: ../plugins/workspacenames/workspacenames.xml.in.h:1
 msgid "Workspace Naming"
-msgstr ""
+msgstr "Navngivning af arbejdsområder"
 
 #: ../plugins/workspacenames/workspacenames.xml.in.h:2
 msgid "Assign names to viewports and display them upon viewport switches"

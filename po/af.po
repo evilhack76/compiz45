@@ -6,465 +6,473 @@ msgstr ""
 "Project-Id-Version: installation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 16:05+0300\n"
-"PO-Revision-Date: 2019-02-21 11:06+0000\n"
-"Last-Translator: Novell Language <Unknown>\n"
+"PO-Revision-Date: 2020-06-20 20:42+0000\n"
+"Last-Translator: Bernard Stafford <Unknown>\n"
 "Language-Team: Novell Language <language@novell.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-02-23 07:58+0000\n"
-"X-Generator: Launchpad (build 18886)\n"
+"X-Launchpad-Export-Date: 2022-08-20 07:02+0000\n"
+"X-Generator: Launchpad (build a7ed8521180d7bb33e1a127e53ad65268d6ca88f)\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
 msgid "Compiz"
-msgstr ""
+msgstr "Compiz"
 
 #: ../gtk/window-decorator/events.c:159 ../metadata/core.xml.in.h:50
 #: ../plugins/scaleaddon/scaleaddon.xml.in.h:4
 msgid "Close Window"
-msgstr ""
+msgstr "Sluit Venster"
 
 #: ../gtk/window-decorator/events.c:187 ../metadata/core.xml.in.h:60
 msgid "Unmaximize Window"
-msgstr ""
+msgstr "Ongmaksimeer Venster"
 
 #: ../gtk/window-decorator/events.c:190 ../metadata/core.xml.in.h:58
 msgid "Maximize Window"
-msgstr ""
+msgstr "Maksimeer Venster"
 
 #: ../gtk/window-decorator/events.c:245 ../metadata/core.xml.in.h:56
 msgid "Minimize Window"
-msgstr ""
+msgstr "Minimaliseer Venster"
 
 #: ../gtk/window-decorator/events.c:265 ../metadata/core.xml.in.h:68
 msgid "Window Menu"
-msgstr ""
+msgstr "Venster Spyskaart"
 
 #: ../gtk/window-decorator/events.c:288
 msgid "Shade"
-msgstr ""
+msgstr "Verskadu"
 
 #: ../gtk/window-decorator/events.c:312
 msgid "Make Above"
-msgstr ""
+msgstr "Maak Hierbo"
 
 #: ../gtk/window-decorator/events.c:334
 msgid "Stick"
-msgstr ""
+msgstr "Stok"
 
 #: ../gtk/window-decorator/events.c:356
 msgid "Unshade"
-msgstr ""
+msgstr "Ontverskadu"
 
 #: ../gtk/window-decorator/events.c:378
 msgid "Unmake Above"
-msgstr ""
+msgstr "Unmake Hierbo"
 
 #: ../gtk/window-decorator/events.c:400
 msgid "Unstick"
-msgstr ""
+msgstr "Unstick"
 
 #: ../gtk/window-decorator/forcequit.c:143
 #, c-format
 msgid "The window \"%s\" is not responding."
-msgstr ""
+msgstr "Die vensteer \"%s\" reageer nie."
 
 #: ../gtk/window-decorator/forcequit.c:147
 msgid ""
 "Forcing this application to quit will cause you to lose any unsaved changes."
 msgstr ""
+"Dwing tans hierdie aansoek om quit sal veroorsaak jy te verloor enige "
+"ongeredde veranderings."
 
 #: ../gtk/window-decorator/forcequit.c:159
 msgid "_Cancel"
-msgstr ""
+msgstr "_Kanselleer"
 
 #: ../gtk/window-decorator/forcequit.c:161
 msgid "_Force Quit"
-msgstr ""
+msgstr "_Forseer Quit"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:1
 msgid "Navigation"
-msgstr ""
+msgstr "Navigasie"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:2
 msgid "Move window to workspace 1"
-msgstr ""
+msgstr "Skuif venster na werkspasie 1"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:3
 msgid "Move window to workspace 2"
-msgstr ""
+msgstr "Skuif venster na werkspasie 2"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:4
 msgid "Move window to workspace 3"
-msgstr ""
+msgstr "Skuif venster na werkspasie 3"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:5
 msgid "Move window to workspace 4"
-msgstr ""
+msgstr "Skuif venster na werkspasie 4"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:6
 msgid "Move window to workspace 5"
-msgstr ""
+msgstr "Skuif venster na werkspasie 5"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:7
 msgid "Move window to workspace 6"
-msgstr ""
+msgstr "Skuif venster na werkspasie 6"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:8
 msgid "Move window to workspace 7"
-msgstr ""
+msgstr "Skuif venster na werkspasie 7"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:9
 msgid "Move window to workspace 8"
-msgstr ""
+msgstr "Skuif venster na werkspasie 8"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:10
 msgid "Move window to workspace 9"
-msgstr ""
+msgstr "Skuif venster na werkspasie 9"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:11
 msgid "Move window to workspace 10"
-msgstr ""
+msgstr "Skuif venster na werkspasie 10"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:12
 msgid "Move window to workspace 11"
-msgstr ""
+msgstr "Skuif venster na werkspasie 11"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:13
 msgid "Move window to workspace 12"
-msgstr ""
+msgstr "Skuif venster na werkspasie 12"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
 msgid "Move window one workspace to the left"
-msgstr ""
+msgstr "Skuif venster een werkspasie na links"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
 msgid "Move window one workspace to the right"
-msgstr ""
+msgstr "Skuif venster een werkspasie na regs"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
 msgid "Move window one workspace up"
-msgstr ""
+msgstr "Skuif venster een werkspasie na bo"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
 msgid "Move window one workspace down"
-msgstr ""
+msgstr "Skuif venster een werkspasie na onder"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
 msgid "Switch applications"
-msgstr ""
+msgstr "Skakelaar aansoeke"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:19
 msgid "Switch windows of an app directly"
-msgstr ""
+msgstr "Skakelaar vensters van 'n app direk"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
 msgid "Hide all normal windows"
-msgstr ""
+msgstr "Versteek alle normale vensters"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:21
 msgid "Switch to workspace 1"
-msgstr ""
+msgstr "Verwissel na werkspasie 1"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:22
 msgid "Switch to workspace 2"
-msgstr ""
+msgstr "Verwissel na werkspasie 2"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:23
 msgid "Switch to workspace 3"
-msgstr ""
+msgstr "Verwissel na werkspasie 3"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:24
 msgid "Switch to workspace 4"
-msgstr ""
+msgstr "Verwissel na werkspasie 4"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:25
 msgid "Switch to workspace 5"
-msgstr ""
+msgstr "Verwissel na werkspasie 5"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:26
 msgid "Switch to workspace 6"
-msgstr ""
+msgstr "Verwissel na werkspasie 6"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:27
 msgid "Switch to workspace 7"
-msgstr ""
+msgstr "Verwissel na werkspasie 7"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:28
 msgid "Switch to workspace 8"
-msgstr ""
+msgstr "Verwissel na werkspasie 8"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:29
 msgid "Switch to workspace 9"
-msgstr ""
+msgstr "Verwissel na werkspasie 9"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:30
 msgid "Switch to workspace 10"
-msgstr ""
+msgstr "Verwissel na werkspasie 10"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:31
 msgid "Switch to workspace 11"
-msgstr ""
+msgstr "Verwissel na werkspasie 11"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:32
 msgid "Switch to workspace 12"
-msgstr ""
+msgstr "Skakel na werkruimte 12"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
 msgid "Switch to workspace left"
-msgstr ""
+msgstr "Skakelaar na werkspasie links"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:34
 msgid "Switch to workspace right"
-msgstr ""
+msgstr "Skakelaar na werkspasie regs"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:35
 msgid "Switch to workspace above"
-msgstr ""
+msgstr "Skakelaar na werkspasie hierbo"
 
 #: ../gtk/gnome/50-compiz-navigation.xml.in.h:36
 msgid "Switch to workspace below"
-msgstr ""
+msgstr "Skakelaar na werkspasie onder"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:1 ../plugins/obs/obs.xml.in.h:17
 #: ../plugins/place/place.xml.in.h:32
 #: ../plugins/stackswitch/stackswitch.xml.in.h:24
 msgid "Windows"
-msgstr ""
+msgstr "Vensters"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:2
 msgid "Activate the window menu"
-msgstr ""
+msgstr "Aktiveer die venster spyskaart"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:3
 msgid "Toggle fullscreen mode"
-msgstr ""
+msgstr "Toggle volskerm modus"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:4
 msgid "Toggle maximization state"
-msgstr ""
+msgstr "Toggle maksimering staat"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:5
 msgid "Maximize window"
-msgstr ""
+msgstr "Maksimeer venster"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:6
 msgid "Restore window"
-msgstr ""
+msgstr "Restoureer venster"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:7
 msgid "Toggle shaded state"
-msgstr ""
+msgstr "Toggle verskadued staat"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:8
 msgid "Close window"
-msgstr ""
+msgstr "Sluit venster"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:9
 msgid "Minimize window"
-msgstr ""
+msgstr "Minimaliseer venster"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:10
 msgid "Move window"
-msgstr ""
+msgstr "Beweeg venster"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:11
 #: ../plugins/resize/resize.xml.in.h:2
 msgid "Resize window"
-msgstr ""
+msgstr "Verander grootte venster"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:12 ../metadata/core.xml.in.h:53
 msgid "Raise window above other windows"
-msgstr ""
+msgstr "Verhoog venster bo ander vensters"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:13
 msgid "Lower window below other windows"
-msgstr ""
+msgstr "Laat sak venster onder ander vensters"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:14
 msgid "Maximize window vertically"
-msgstr ""
+msgstr "Maksimeer venster vertikaal"
 
 #: ../gtk/gnome/50-compiz-windows.xml.in.h:15
 msgid "Maximize window horizontally"
-msgstr ""
+msgstr "Maksimeer venster horisontaal"
 
 #: ../metadata/core.xml.in.h:1 ../plugins/ring/ring.xml.in.h:23
 #: ../plugins/shift/shift.xml.in.h:34
 msgid "General Options"
-msgstr ""
+msgstr "Algemeen Opsies"
 
 #: ../metadata/core.xml.in.h:2
 msgid "General compiz options"
-msgstr ""
+msgstr "Algemene compiz opsies"
 
 #: ../metadata/core.xml.in.h:3
 msgid "Active Plugins"
-msgstr ""
+msgstr "Aktiewe inproppe"
 
 #: ../metadata/core.xml.in.h:4
 msgid "List of currently active plugins"
-msgstr ""
+msgstr "Lys met tans aktiewe inproppe"
 
 #: ../metadata/core.xml.in.h:5
 msgid "Audible Bell"
-msgstr ""
+msgstr "Hoorbare Klokkie"
 
 #: ../metadata/core.xml.in.h:6
 msgid "Audible system beep"
-msgstr ""
+msgstr "Hoorbare stelsel beep"
 
 #: ../metadata/core.xml.in.h:7
 msgid "Ignore Hints When Maximized"
-msgstr ""
+msgstr "Ignoreer Hints Wanneer Gemaksimeer"
 
 #: ../metadata/core.xml.in.h:8
 msgid "Ignore size increment and aspect hints when window is maximized"
 msgstr ""
+"Ignoreer grootte inkrement en aspek hints wanneer venster gemaksimeer"
 
 #: ../metadata/core.xml.in.h:9
 msgid "Hide Skip Taskbar Windows"
-msgstr ""
+msgstr "Steek Skip Taakbalk Windows"
 
 #: ../metadata/core.xml.in.h:10
 msgid "Hide windows not in taskbar when entering show desktop mode"
 msgstr ""
+"Steek vensters wat nie op die taakbalk is nie, as die bureaublad modus betree"
 
 #: ../metadata/core.xml.in.h:11
 msgid "Edge Trigger Delay"
-msgstr ""
+msgstr "Edge Trigger Vertraging"
 
 #: ../metadata/core.xml.in.h:12
 msgid ""
 "Duration the pointer must rest in a screen edge before an edge action is "
 "taken."
 msgstr ""
+"Duur van die aanwijzer moet rus in 'n skerm rand voor 'n rand aksie geneem "
+"word."
 
 #: ../metadata/core.xml.in.h:13
 msgid "Ping Delay"
-msgstr ""
+msgstr "Ping Vertraging"
 
 #: ../metadata/core.xml.in.h:14
 msgid "Interval between ping messages"
-msgstr ""
+msgstr "Interval tussen ping boodskappe"
 
 #: ../metadata/core.xml.in.h:15
 msgid "Default Icon"
-msgstr ""
+msgstr "Verstek Ikoon"
 
 #: ../metadata/core.xml.in.h:16
 msgid "Default window icon image"
-msgstr ""
+msgstr "Verstek venster ikoon beeld"
 
 #: ../metadata/core.xml.in.h:17
 msgid "Save plugin states on unload"
-msgstr ""
+msgstr "Stoor inproop staats op ontlaai"
 
 #: ../metadata/core.xml.in.h:18
 msgid ""
 "Save the state of plugins when they are unloaded such they will resume their "
 "past internal state when reloaded"
 msgstr ""
+"Stoor die staat van inpropings as hulle onlaai, sodat hulle hul verlede "
+"interne toestand in die sal hervat wanneer dit herlaai word"
 
 #: ../metadata/core.xml.in.h:19
 msgid "Display Settings"
-msgstr ""
+msgstr "Vertoon Instellings"
 
 #: ../metadata/core.xml.in.h:20
 msgid "Overlapping Output Handling"
-msgstr ""
+msgstr "Oorvleuelende Uitset Hantering"
 
 #: ../metadata/core.xml.in.h:21
 msgid "Which one of overlapping output devices should be preferred"
-msgstr ""
+msgstr "Watter een van die oorvleuelende uitset toestelle moet verkies word?"
 
 #: ../metadata/core.xml.in.h:22
 msgid "Smart mode"
-msgstr ""
+msgstr "Slim modus"
 
 #: ../metadata/core.xml.in.h:23
 msgid "Prefer larger output"
-msgstr ""
+msgstr "Verkies groter uitset"
 
 #: ../metadata/core.xml.in.h:24
 msgid "Prefer smaller output"
-msgstr ""
+msgstr "Verkies kleiner uitset"
 
 #: ../metadata/core.xml.in.h:25
 msgid "Detect Outputs"
-msgstr ""
+msgstr "Bespeur Uitsets"
 
 #: ../metadata/core.xml.in.h:26
 msgid "Automatic detection of output devices"
-msgstr ""
+msgstr "Outomatiese opsporing van uitset toestelle"
 
 #: ../metadata/core.xml.in.h:27
 msgid "Outputs"
-msgstr ""
+msgstr "Uitsets"
 
 #: ../metadata/core.xml.in.h:28
 msgid "List of strings describing output devices"
-msgstr ""
+msgstr "Lys van snare wat uitset toestelle beskryf"
 
 #: ../metadata/core.xml.in.h:29
 msgid "Focus &amp; Raise Behaviour"
-msgstr ""
+msgstr "Fokus &amp; Rise Gedrag"
 
 #: ../metadata/core.xml.in.h:30
 msgid "Click To Focus"
-msgstr ""
+msgstr "Klik Tot Fokus"
 
 #: ../metadata/core.xml.in.h:31
 msgid "Click on window moves input focus to it"
-msgstr ""
+msgstr "Klik op venster beweeges insette fokus om dit"
 
 #: ../metadata/core.xml.in.h:32
 msgid "Raise On Click"
-msgstr ""
+msgstr "Raise Op Klik"
 
 #: ../metadata/core.xml.in.h:33
 msgid "Raise windows when clicked"
-msgstr ""
+msgstr "Raise vensters wanneer gekliek"
 
 #: ../metadata/core.xml.in.h:34
 msgid "Auto-Raise"
-msgstr ""
+msgstr "Outo-Raise"
 
 #: ../metadata/core.xml.in.h:35
 msgid "Raise selected windows after interval"
-msgstr ""
+msgstr "Raise geselekteerde vensters na interval"
 
 #: ../metadata/core.xml.in.h:36
 msgid "Auto-Raise Delay"
-msgstr ""
+msgstr "Outo-Raise Vertraging"
 
 #: ../metadata/core.xml.in.h:37
 msgid "Interval before raising selected windows"
-msgstr ""
+msgstr "Interval voordat geselekteerde vensters raising"
 
 #: ../metadata/core.xml.in.h:38
 msgid "Focus Desktop"
-msgstr ""
+msgstr "Fokus Bureaublad"
 
 #: ../metadata/core.xml.in.h:39
 msgid "Focus the desktop when click to focus is disabled"
-msgstr ""
+msgstr "Fokus die bureaublad wanneer klik om te fokus is gedeaktiveer"
 
 #: ../metadata/core.xml.in.h:40
 msgid "Focus Prevention Level"
-msgstr ""
+msgstr "Fokus Voorkomings Vlak"
 
 #: ../metadata/core.xml.in.h:41
 msgid "Level of focus stealing prevention"
-msgstr ""
+msgstr "Vlak van fokus steeling voorkoming"
 
 #: ../metadata/core.xml.in.h:42 ../plugins/animation/animation.xml.in.h:96
 msgid "Off"
-msgstr ""
+msgstr "Af"
 
 #: ../metadata/core.xml.in.h:43
 msgid "Low"
-msgstr ""
+msgstr "Laag"
 
 #: ../metadata/core.xml.in.h:44 ../plugins/move/move.xml.in.h:24
 #: ../plugins/resize/resize.xml.in.h:8
@@ -474,52 +482,52 @@ msgstr "Normaal"
 
 #: ../metadata/core.xml.in.h:45
 msgid "High"
-msgstr ""
+msgstr "Hoog"
 
 #: ../metadata/core.xml.in.h:46
 msgid "Very High"
-msgstr ""
+msgstr "Baie Hoog"
 
 #: ../metadata/core.xml.in.h:47
 msgid "Focus Prevention Windows"
-msgstr ""
+msgstr "Fokus Voorkoming Vensters"
 
 #: ../metadata/core.xml.in.h:48
 msgid "Focus prevention windows"
-msgstr ""
+msgstr "Fokus voorkoming vensters"
 
 #: ../metadata/core.xml.in.h:49 ../plugins/group/group.xml.in.h:4
 #: ../plugins/stackswitch/stackswitch.xml.in.h:2
 msgid "Key bindings"
-msgstr ""
+msgstr "Sleutel bindings"
 
 #: ../metadata/core.xml.in.h:51
 msgid "Close active window"
-msgstr ""
+msgstr "Sluit aktiewe venster"
 
 #: ../metadata/core.xml.in.h:52
 msgid "Raise Window"
-msgstr ""
+msgstr "Raise Venster"
 
 #: ../metadata/core.xml.in.h:54
 msgid "Lower Window"
-msgstr ""
+msgstr "Verlaag Vensters"
 
 #: ../metadata/core.xml.in.h:55
 msgid "Lower window beneath other windows"
-msgstr ""
+msgstr "Verlaag venster onder ander vensters"
 
 #: ../metadata/core.xml.in.h:57
 msgid "Minimize active window"
-msgstr ""
+msgstr "Minimaliseer aktiewe venster"
 
 #: ../metadata/core.xml.in.h:59
 msgid "Maximize active window"
-msgstr ""
+msgstr "Maksimeer aktiewe venster"
 
 #: ../metadata/core.xml.in.h:61
 msgid "Unmaximize active window"
-msgstr ""
+msgstr "Onmaksimeer aktiewe venster"
 
 #: ../metadata/core.xml.in.h:62
 msgid "Unmaximize or Minimize Window"
@@ -4271,7 +4279,7 @@ msgstr ""
 
 #: ../plugins/ezoom/ezoom.xml.in.h:108
 msgid "Zoom factor"
-msgstr ""
+msgstr "Zoem faktor"
 
 #: ../plugins/ezoom/ezoom.xml.in.h:109
 msgid "Zoom in/out by this factor. Higher value means quicker zooming."
@@ -6119,7 +6127,7 @@ msgstr ""
 
 #: ../plugins/mag/mag.xml.in.h:6
 msgid "Zoom Out"
-msgstr ""
+msgstr "Zoom Uit"
 
 #: ../plugins/mag/mag.xml.in.h:9
 msgid "Mode."

@@ -14,14 +14,14 @@ msgstr ""
 "Project-Id-Version: compiz-new\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-19 16:05+0300\n"
-"PO-Revision-Date: 2019-03-17 16:43+0000\n"
-"Last-Translator: Butterfly <Unknown>\n"
+"PO-Revision-Date: 2022-01-12 13:51+0000\n"
+"Last-Translator: ymiroglu <gurbetcii_@hotmail.com>\n"
 "Language-Team: <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-11-26 17:49+0000\n"
-"X-Generator: Launchpad (build c597c3229eb023b1e626162d5947141bf7befb13)\n"
+"X-Launchpad-Export-Date: 2022-08-20 07:01+0000\n"
+"X-Generator: Launchpad (build a7ed8521180d7bb33e1a127e53ad65268d6ca88f)\n"
 
 #: ../gtk/gnome/compiz.desktop.in.h:1
 msgid "Compiz"
@@ -468,7 +468,7 @@ msgstr "Masaüstü Odaklama"
 
 #: ../metadata/core.xml.in.h:39
 msgid "Focus the desktop when click to focus is disabled"
-msgstr ""
+msgstr "Odaklanma için tıkla devre dışı olduğunda masaüstüne odaklan"
 
 #: ../metadata/core.xml.in.h:40
 msgid "Focus Prevention Level"
@@ -545,11 +545,11 @@ msgstr "Etkin pencereyi büyütme"
 
 #: ../metadata/core.xml.in.h:62
 msgid "Unmaximize or Minimize Window"
-msgstr ""
+msgstr "Pencereyi Tam Ekrandan Çıkar ya da Küçült"
 
 #: ../metadata/core.xml.in.h:63
 msgid "Unmaximize or minimize active window"
-msgstr ""
+msgstr "Etkin pencereyi tam ekrandan çıkar ya da küçült"
 
 # clients/inst_target_part.ycp:387
 #: ../metadata/core.xml.in.h:64
@@ -640,12 +640,14 @@ msgstr "Dikey sanal boyut için ekran boyutu çoklayıcı"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:1
 msgid "Dim Inactive"
-msgstr ""
+msgstr "Pasifleri Karart"
 
 #: ../plugins/addhelper/addhelper.xml.in.h:2
 msgid ""
 "Make it slightly easier to concentrate by dimming all but the active window."
 msgstr ""
+"Etkin pencere dışında diğerlerini karartarak etkin pencereye odaklanmayı "
+"kolaylaştırır."
 
 #: ../plugins/addhelper/addhelper.xml.in.h:3
 #: ../plugins/cubeaddon/cubeaddon.xml.in.h:4 ../plugins/expo/expo.xml.in.h:3
@@ -739,11 +741,11 @@ msgstr "Etkin olmayan pencerelerin matlığı"
 
 #: ../plugins/animation/animation.xml.in.h:1
 msgid "Animations"
-msgstr "Canlandırmalar"
+msgstr "Animasyonlar"
 
 #: ../plugins/animation/animation.xml.in.h:2
 msgid "Use various animations as window effects"
-msgstr ""
+msgstr "Pencere efekti olarak değişik animasyonlar kullan"
 
 #: ../plugins/animation/animation.xml.in.h:3
 msgid "Open Animation"
@@ -759,7 +761,7 @@ msgstr "Açış Efekti"
 
 #: ../plugins/animation/animation.xml.in.h:6
 msgid "The animation effect shown when creating a window."
-msgstr ""
+msgstr "Pencere oluştururken gösterilen animasyon efekti."
 
 #: ../plugins/animation/animation.xml.in.h:7 ../plugins/trip/trip.xml.in.h:18
 msgid "Duration"
@@ -777,7 +779,7 @@ msgstr "Pencere Eşleşmesi"
 
 #: ../plugins/animation/animation.xml.in.h:10
 msgid "The windows that will be animated."
-msgstr ""
+msgstr "Hareketlendirilecek pencereler."
 
 #: ../plugins/animation/animation.xml.in.h:11
 #: ../plugins/group/group.xml.in.h:49
@@ -815,11 +817,11 @@ msgstr "Kapatma Efekti"
 
 #: ../plugins/animation/animation.xml.in.h:18
 msgid "The animation effect shown when closing a window."
-msgstr ""
+msgstr "Bir pencere kapatılırken gösterilen hareketlendirme efekti."
 
 #: ../plugins/animation/animation.xml.in.h:19
 msgid "Animation duration in milliseconds for close effect."
-msgstr ""
+msgstr "Kapatma efekti için milisaniye olarak hareketlendirme süresi."
 
 #: ../plugins/animation/animation.xml.in.h:20
 msgid "Minimize Animation"
@@ -840,31 +842,34 @@ msgstr "Küçültürken efekti için milisaniye cinsinden canlandırma süresi."
 
 #: ../plugins/animation/animation.xml.in.h:24
 msgid "Unminimize Animation"
-msgstr ""
+msgstr "Ekrana Geri Yükseltme Hareketi"
 
 #: ../plugins/animation/animation.xml.in.h:25
 msgid "Unminimize Effect"
-msgstr ""
+msgstr "Ekrana Geri Yükseltme Efekti"
 
 #: ../plugins/animation/animation.xml.in.h:26
 msgid "The animation effect shown when unminimizing a window."
 msgstr ""
+"Bir pencerenin ekrana geri yükseltilmesi sırasındaki hareketli efekt."
 
 #: ../plugins/animation/animation.xml.in.h:27
 msgid "Animation duration in milliseconds for unminimize effect."
 msgstr ""
+"Bir pencerenin ekrana geri yükseltilmesi hareketinin milisaniye olarak "
+"süresi."
 
 #: ../plugins/animation/animation.xml.in.h:28
 msgid "Shade Animation"
-msgstr ""
+msgstr "Gölge Hareketlendirmesi"
 
 #: ../plugins/animation/animation.xml.in.h:29
 msgid "Shade Effect"
-msgstr ""
+msgstr "Gölge Efekti"
 
 #: ../plugins/animation/animation.xml.in.h:30
 msgid "The animation effect shown when shading a window."
-msgstr ""
+msgstr "Bir pencere gölgelendiğinde gösterilen hareket efekti."
 
 #: ../plugins/animation/animation.xml.in.h:31
 msgid "Animation duration in milliseconds for shade effect."
@@ -906,7 +911,7 @@ msgstr ""
 
 #: ../plugins/animation/animation.xml.in.h:39
 msgid "Random Animations For All Events"
-msgstr ""
+msgstr "Tüm Olaylar için Rastgele Animasyonlar"
 
 #: ../plugins/animation/animation.xml.in.h:40
 msgid ""
@@ -1236,11 +1241,11 @@ msgstr ""
 
 #: ../plugins/animationaddon/animationaddon.xml.in.h:1
 msgid "Animations Add-On"
-msgstr ""
+msgstr "Animasyon Eklentileri"
 
 #: ../plugins/animationaddon/animationaddon.xml.in.h:2
 msgid "Extra window animations and animation engines"
-msgstr ""
+msgstr "Ek pencere animasyonları ve animasyon motorları"
 
 #: ../plugins/animationaddon/animationaddon.xml.in.h:4
 msgid "Animation Time Step For Intense Effects"
@@ -1640,11 +1645,11 @@ msgstr ""
 
 #: ../plugins/animationjc/animationjc.xml.in.h:1
 msgid "Animations Experimental"
-msgstr ""
+msgstr "Animasyonlar Deneysel"
 
 #: ../plugins/animationjc/animationjc.xml.in.h:2
 msgid "Extra window animations"
-msgstr ""
+msgstr "Ek pencere animasyonları"
 
 #: ../plugins/animationjc/animationjc.xml.in.h:4
 msgid "Black Hole"
@@ -1698,11 +1703,11 @@ msgstr ""
 
 #: ../plugins/animationplus/animationplus.xml.in.h:1
 msgid "Animations Plus"
-msgstr ""
+msgstr "Animasyonlar Ek"
 
 #: ../plugins/animationplus/animationplus.xml.in.h:2
 msgid "More window animations"
-msgstr ""
+msgstr "Daha fazla pencere animasyonu"
 
 #: ../plugins/animationplus/animationplus.xml.in.h:4
 msgid "Helix"
@@ -2152,7 +2157,7 @@ msgstr "İkileme seçimini başlat"
 
 #: ../plugins/colorfilter/colorfilter.xml.in.h:1
 msgid "Color filter"
-msgstr ""
+msgstr "Renk filtresi"
 
 #: ../plugins/colorfilter/colorfilter.xml.in.h:2
 msgid "Filter colors for accessibility purposes"
@@ -2975,11 +2980,11 @@ msgstr ""
 
 #: ../plugins/composite/composite.xml.in.h:1
 msgid "Composite"
-msgstr "Birleşiklik"
+msgstr "Birleştirme"
 
 #: ../plugins/composite/composite.xml.in.h:2
 msgid "Composite plugin"
-msgstr "Birleşiklik eklentisi"
+msgstr "Birleştirme eklentisi"
 
 #: ../plugins/composite/composite.xml.in.h:3
 msgid "Slow Animations"
@@ -2987,7 +2992,7 @@ msgstr "Yavaş Animasyonlar"
 
 #: ../plugins/composite/composite.xml.in.h:4
 msgid "Toggle use of slow animations"
-msgstr "Yavaş canlandırmaları aç / kapat"
+msgstr "Yavaş animasyonları aç/kapat"
 
 # clients/inst_sw_single.ycp:1620
 #: ../plugins/composite/composite.xml.in.h:5
@@ -3991,7 +3996,7 @@ msgstr ""
 
 #: ../plugins/ezoom/ezoom.xml.in.h:1
 msgid "Enhanced Zoom Desktop"
-msgstr ""
+msgstr "Geliştirilmiş Masaüstü Yakınlaştırması"
 
 #: ../plugins/ezoom/ezoom.xml.in.h:2
 msgid "Enhanced zoom functions for the visually impaired and other users"
@@ -6375,7 +6380,7 @@ msgstr ""
 
 #: ../plugins/matecompat/matecompat.xml.in.h:1
 msgid "MATE Compatibility"
-msgstr ""
+msgstr "MATE Uyumluluğu"
 
 #: ../plugins/matecompat/matecompat.xml.in.h:2
 msgid "Options that keep Compiz compatible with the MATE desktop environment"
@@ -7137,7 +7142,7 @@ msgstr "Pencerelerin doygunluk değeri (yüzde olarak)."
 
 #: ../plugins/opacify/opacify.xml.in.h:1
 msgid "Opacify"
-msgstr ""
+msgstr "Matsızlaştırma"
 
 #: ../plugins/opacify/opacify.xml.in.h:2
 msgid "Make windows easily visible by hovering the mouse over them"
@@ -7145,7 +7150,7 @@ msgstr ""
 
 #: ../plugins/opacify/opacify.xml.in.h:4
 msgid "Toggle Opacify"
-msgstr ""
+msgstr "Matsızlaştırmayı Aç/Kapat"
 
 #: ../plugins/opacify/opacify.xml.in.h:5
 msgid ""
@@ -7175,7 +7180,7 @@ msgstr ""
 
 #: ../plugins/opacify/opacify.xml.in.h:11
 msgid "Toggle Opacify on by default"
-msgstr ""
+msgstr "Öntanımlı olarak Matsızlaştırmayı Aç"
 
 #: ../plugins/opacify/opacify.xml.in.h:12
 msgid ""
@@ -9862,11 +9867,11 @@ msgstr ""
 
 #: ../plugins/simple-animations/animationsim.xml.in.h:1
 msgid "Simple Animations"
-msgstr ""
+msgstr "Basit Animasyonlar"
 
 #: ../plugins/simple-animations/animationsim.xml.in.h:2
 msgid "Animations that are simple on the eye"
-msgstr ""
+msgstr "Göze basit gelen animasyonlar"
 
 #: ../plugins/simple-animations/animationsim.xml.in.h:4
 msgid "Fly In"
@@ -10600,7 +10605,7 @@ msgstr "Değiştirirken seçilen pencereyi döndür"
 
 #: ../plugins/td/td.xml.in.h:1
 msgid "3D Windows"
-msgstr ""
+msgstr "3B Pencereler"
 
 #: ../plugins/td/td.xml.in.h:2
 msgid "Elevates windows while rotating the cube"
