@@ -1,3 +1,26 @@
+Release 0.9.14.2 (2022-08-21 Dmitry Shachnev <mitya57@ubuntu.com>)
+==================================================================
+
+Highlights
+
+- Added support for _GTK_WORKAREAS_Dn and _GNOME_WM_STRUT_AREA.
+- Fixed build errors with new GCC versions.
+- Fixed some bugs in blur and opengl plugins on OpenGL ES.
+
+Bugs Fixed
+
+https://pad.lv/1859778 - pkg-config search path is no longer changed.
+https://pad.lv/1863561 - Fixed CCSM appearance with dark themes.
+https://pad.lv/1878545 - Made annotate plugin D-Bus interface working, and
+                         cleaned up code.
+https://pad.lv/1879975 - DbusScreen object was used after destroy.
+https://pad.lv/1882792 - Added support for CMake Unity (aka Jumbo) builds.
+https://pad.lv/1923481 - Updated FSF addresses.
+https://pad.lv/1926046 - Build the compizconfig Python extension using
+                         distutils.
+https://pad.lv/1986681 - Use correct window when deciding if it should appear
+                         focused.
+
 Release 0.9.14.1 (2019-11-27 Dmitry Shachnev <mitya57@ubuntu.com>)
 ==================================================================
 
