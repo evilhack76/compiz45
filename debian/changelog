@@ -1,8 +1,9 @@
-compiz (1:0.9.14.2+22.10.20220821-0ubuntu1) UNRELEASED; urgency=medium
+compiz (1:0.9.14.2+22.10.20220822-0ubuntu1) kinetic; urgency=medium
 
   * Bump upstream version number to 0.9.14.2.
+  * Update translations from Launchpad.
 
- -- Dmitry Shachnev <mitya57@ubuntu.com>  Sun, 21 Aug 2022 20:19:06 +0300
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Mon, 22 Aug 2022 05:55:24 +0000
 
 compiz (1:0.9.14.1+22.10.20220817-0ubuntu1) kinetic; urgency=medium
 
